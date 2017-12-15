@@ -31,7 +31,7 @@ var PATHS = {
   sass: [
     'assets/components/foundation-sites/scss',
     'assets/components/motion-ui/src',
-    'assets/components/fontawesome/scss',
+    'assets/components/fontawesome/scss'
   ],
   javascript: [
     'assets/components/what-input/what-input.js',
@@ -61,8 +61,10 @@ var PATHS = {
     'assets/components/foundation-sites/js/foundation.zf.responsiveAccordionTabs.js',
 
 
-    // Motion UI
+    // Extra libs
     'assets/components/motion-ui/motion-ui.js',
+    'assets/components/filterizr/dist/jquery.filterizr.min.js',
+    'assets/components/featherlight/release/featherlight.min.js',
 
     // Include your own custom scripts (located in the custom folder)
     'assets/javascript/custom/*.js',

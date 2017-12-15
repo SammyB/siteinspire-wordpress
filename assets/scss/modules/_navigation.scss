@@ -9,6 +9,10 @@
   @include show-for(medium);
 }
 
+.top-bar,
+.top-bar ul {
+  background-color: $body-background;
+}
 
 
 // Site title

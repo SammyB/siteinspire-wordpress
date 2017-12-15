@@ -74,5 +74,10 @@
     "postinstall": "bower install && gulp build",
     "production": "gulp --production",
     "watch": "gulp"
+  },
+  "dependencies": {
+    "featherlight": "^1.7.7",
+    "filterizr": "^1.2.5",
+    "particlesjs": "^2.0.2"
   }
 }
