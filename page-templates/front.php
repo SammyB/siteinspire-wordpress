@@ -26,8 +26,8 @@ get_header(); ?>
           <p class="inspire--curated">Curated by<br> Sam Brunno, Isobar Australia.</p>
 
           <ul class="alm-filter-nav">
-            <li><a href="#" data-post-type="posts" data-posts-per-page="12" category="2 / Interactions" data-scroll="false" data-button-label="More Work">ANIMATION</a></li>
-            <li><a href="#" data-post-type="posts" data-posts-per-page="12" category="6" data-scroll="true" data-button-label="More Articles">PORTFOLIO</a></li>
+            <li><a href="#" data-post-type="webgl" data-posts-per-page="12" data-category="webgl" data-scroll="true" data-button-label="More Work">ANIMATION</a></li>
+            <li><a href="#" data-post-type="webgl" data-posts-per-page="12" data-category="navigation" data-scroll="true" data-button-label="More Work">PORTFOLIO</a></li>
           </ul>
 
           <!-- For filtering controls add -->
@@ -62,7 +62,7 @@ get_header(); ?>
           progress_bar_color="ed7070"
           button_loading_label="Loading inspiration"
           button_label="Older inspiration"
-          css_classes="siteinspire row small-up-2 medium-up-4 large-up-4 filtr-container"
+          css_classes="siteinspire row small-up-2 medium-up-3 large-up-3 filtr-container"
         ]' );
       ?>
       <?php the_excerpt(); ?>
@@ -70,7 +70,7 @@ get_header(); ?>
 </div>
 <div id="mylightbox" class="lightbox">
   <h2>TITLE</h2>
-  <a href="#" target="_blank"><img src="" /></a>
+  <a href="#" target="_blank"><img src="/" /></a>
   <p>DESCRIPTION</p>
 </div>
 

@@ -76,8 +76,7 @@ $.fn.almDone = function(alm){
   });
 };
 
-// filter var alm_is_animating = false; // Animating flag
-var alm_is_animating = false;
+var alm_is_animating = false; // Animating flag
 $('.alm-filter-nav li').eq(0).addClass('active'); // Set initial active state
 
 // Btn Click Event
@@ -85,16 +84,19 @@ $('.alm-filter-nav li a').on('click', function(e){
 
   e.preventDefault();
   var el = $(this); // Our selected element
+  console.log('el:',el);
 
-  if(!el.hasClass('active') && !alm_is_animating){ // Check for active and !alm_is_animating
+  if(!el.hasClass('active') && !alm_is_animating){
+    // Check for active and !alm_is_animating
      alm_is_animating = true;
-     el.parent().addClass('active').siblings('li').removeClass('active'); // Add active state
-
+     el.parent().addClass('active').siblings('li').removeClass('active');
+     
+     // Add active state
      var data = el.data(), // Get data values from selected menu item
          transition = 'fade', // 'slide' | 'fade' | null
          speed = '300'; //in milliseconds
-
-     $.fn.almFilter(transition, speed, data); // Run the filter
+    console.log(data);
+    $.fn.almFilter(transition, speed, data); // Run the filter
   }
 });
 
