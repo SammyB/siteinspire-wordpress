@@ -74,7 +74,10 @@
   Add your scss files below to structure your project styles
 */
 
+// Global
+
 // Modules
+@import "modules/inspire";
 @import "modules/navigation";
 @import "modules/content";
 @import "modules/footer";

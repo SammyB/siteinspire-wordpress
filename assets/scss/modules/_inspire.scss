@@ -1,0 +1,13 @@
+.inspire {
+  &--text {
+    font-family: $body-font-family;
+    color: #aaacb4;
+    text-align: left;
+  }
+
+  &--curated {
+    font-family: $body-font-family;
+    color: #fefefe;
+    text-align: left;
+  }
+}
