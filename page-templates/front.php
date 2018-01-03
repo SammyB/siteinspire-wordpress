@@ -25,11 +25,6 @@ get_header(); ?>
 
           <p class="inspire--curated">Curated by<br> Sam Brunno, Isobar Australia.</p>
 
-          <ul class="alm-filter-nav">
-            <li><a href="#" data-post-type="post" data-posts-per-page="12" data-category="gestures-interaction" data-scroll="true" data-button-label="More Work">ANIMATION</a></li>
-            <li><a href="#" data-post-type="post" data-posts-per-page="12" data-category="gestures-interaction" data-scroll="true" data-button-label="More Work">PORTFOLIO</a></li>
-          </ul>
-
           <div class="inspire__filter">
             <div class="inspire__filter--header">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
@@ -37,7 +32,26 @@ get_header(); ?>
               </svg>
               <p>Filter by tags</p>
             </div>
+
             <hr>
+
+            <ul class="alm-filter-nav">
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="3d" data-scroll="true" data-button-label="More Inspiration">
+                  3D
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="animation" data-scroll="true" data-button-label="More Inspiration">
+                  Animation
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="data-driven" data-scroll="true" data-button-label="More Inspiration">
+                  Data Driven
+                </a>
+              </li>
+            </ul>
           </div>
 
           <!-- For filtering controls add 
