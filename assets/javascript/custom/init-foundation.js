@@ -18,10 +18,9 @@ var options = {
   setupControls: true
 };
 
-window.onload = function() {
-  
-  $(document).foundation();
+jQuery(document).foundation();
 
+window.onload = function() {
   Particles.init({
     selector: 'canvas.background',
     maxParticles: 350,
@@ -46,63 +45,84 @@ window.onload = function() {
       }
     ]
   });
+};
 
-  var alm_is_animating = false; // Animating flag
-  $('.alm-filter-nav li').eq(0).addClass('active'); // Set initial active state
+// once AJAX is done, lets load stuff
+$.fn.almDone = function(alm){
 
-  // Btn Click Event
-  $('.alm-filter-nav li a').on('click', function(e){
+  //You can override any of these options and then call...
+  var filterStart = $('.filtr-container').filterizr(options);
+  //If you have already instantiated your Filterizr then call...
+  filterStart.filterizr('setOptions', options);
 
-    e.preventDefault();
-    var el = $(this); // Our selected element
-    console.log('el:',el);
+  // lightbox
+  $('.filtr-item > a').featherlight({
+    beforeOpen: function(event){
+      //setup vars
+      var $title = this.$currentTarget[0].dataset.title,
+          $description = this.$currentTarget[0].dataset.description,
+          $image = this.$currentTarget[0].dataset.image,
+          $link = this.$currentTarget[0].dataset.link;
 
-    if(!el.hasClass('active') && !alm_is_animating){
-      // Check for active and !alm_is_animating
-      alm_is_animating = true;
-      el.parent().addClass('active').siblings('li').removeClass('active');
-      
-      // Add active state
-      var data = el.data(), // Get data values from selected menu item
-          transition = 'fade', // 'slide' | 'fade' | null
-          speed = '300'; //in milliseconds
-      console.log(data);
-      $.fn.almFilter(transition, speed, data); // Run the filter
+      // link
+      $('#mylightbox').find('a').attr('href', $link);
+      // title
+      $('#mylightbox').find('h2').empty().append($title);
+      // content
+      $('#mylightbox').find('p').empty().append($description);
+      // image
+      $('#mylightbox').find('img').attr('src', $image);
     }
   });
+};
 
-  $.fn.almFilterComplete = function(){
-    console.log('Ajax Load More filter has completed!');
-    alm_is_animating = false; // clear animating flag
-  };
+var alm_is_animating = false; // Animating flag
+$('.alm-filter-nav li').eq(0).addClass('active'); // Set initial active state
+
+// Btn Click Event
+$('.alm-filter-nav li a').on('click', function(e){
+
+  e.preventDefault();
+  var el = $(this); // Our selected element
+
+  if(!el.hasClass('active') && !alm_is_animating){
+    // Check for active and !alm_is_animating
+     alm_is_animating = true;
+     el.parent().addClass('active').siblings('li').removeClass('active');
+     
+     // Add active state
+     var data = el.data(), // Get data values from selected menu item
+         transition = 'fade', // 'slide' | 'fade' | null
+         speed = '300'; //in milliseconds
+    $.fn.almFilter(transition, speed, data); // Run the filter
+  }
+});
+
+$.fn.almFilterComplete = function(){
+  console.log('Ajax Load More filter has completed!');
+  alm_is_animating = false; // clear animating flag
 };
 
 jQuery(document).ready(function () {
   $.fn.almComplete = function(alm){
     // lightbox
-    jQuery('.filtr-item > a').on('click', function(e){
-      console.log('$(e):',$(e));
-      console.log('this:',this);
-      jQuery(this).featherlight({
-        beforeOpen: function(event){
-          console.log('working?',this.$currentTarget[0]);         
+    $('.filtr-item > a').featherlight({
+      beforeOpen: function(event){
+        //setup vars
+        var $title = this.$currentTarget[0].dataset.title,
+            $description = this.$currentTarget[0].dataset.description,
+            $image = this.$currentTarget[0].dataset.image,
+            $link = this.$currentTarget[0].dataset.link;
 
-          //setup vars
-          var $title = this.$currentTarget[0].dataset.title,
-              $description = this.$currentTarget[0].dataset.description,
-              $image = this.$currentTarget[0].dataset.image,
-              $link = this.$currentTarget[0].dataset.link;
-
-          // link
-          jQuery('#mylightbox').find('a').attr('href', $link);
-          // title
-          jQuery('#mylightbox').find('h2').empty().append($title);
-          // content
-          jQuery('#mylightbox').find('p').empty().append($description);
-          // image
-          jQuery('#mylightbox').find('img').attr('src', $image);
-        }
-      });
+        // link
+        $('#mylightbox').find('a').attr('href', $link);
+        // title
+        $('#mylightbox').find('h2').empty().append($title);
+        // content
+        $('#mylightbox').find('p').empty().append($description);
+        // image
+        $('#mylightbox').find('img').attr('src', $image);
+      }
     });
   };
 });

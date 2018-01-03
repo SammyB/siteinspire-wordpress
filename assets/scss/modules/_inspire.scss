@@ -28,4 +28,31 @@
       }
     }
   }
+
+  &__filter {
+    padding-top: 100px;
+
+    &--header {
+      color: #676373;
+      font-weight: bold;
+      display: inline-block;
+      line-height: 24px;
+
+      p {
+        display: inline-block;
+        line-height: 24px;
+        margin-bottom: 0;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+.alm-btn-wrap .alm-load-more-btn {
+  background: #f14c23 !important;
+  transition: background 0.5s ease, padding .25s ease-in-out, width .25s ease-in-out !important;
+
+  &:hover {
+    background: #f1785a !important;
+  }
 }
