@@ -51,6 +51,61 @@ get_header(); ?>
                   Data Driven
                 </a>
               </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="filters-effects" data-scroll="true" data-button-label="More Inspiration">
+                  Filters & Effects
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="games" data-scroll="true" data-button-label="More Inspiration">
+                  Games
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="gestures-interactions" data-scroll="true" data-button-label="More Inspiration">
+                  Gestures / Interactions
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="navigation" data-scroll="true" data-button-label="More Inspiration">
+                  Navigation
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="parallax" data-scroll="true" data-button-label="More Inspiration">
+                  Parallax
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="portfolio" data-scroll="true" data-button-label="More Inspiration">
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="retail" data-scroll="true" data-button-label="More Inspiration">
+                  Retail
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="typography" data-scroll="true" data-button-label="More Inspiration">
+                  Typography
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="video" data-scroll="true" data-button-label="More Inspiration">
+                  Video
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="vr" data-scroll="true" data-button-label="More Inspiration">
+                  VR
+                </a>
+              </li>
+              <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="web-tools" data-scroll="true" data-button-label="More Inspiration">
+                  Web Tools
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -74,7 +129,7 @@ get_header(); ?>
       </div>
     </div>
   </div>
-  <div class="small-12 medium-8 large-10 columns">
+  <div class="small-12 medium-8 large-10 columns" data-equalizer>
       <?php echo do_shortcode( '
         [ajax_load_more
           id="8958249772"

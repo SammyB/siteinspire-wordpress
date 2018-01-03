@@ -1,21 +1,56 @@
 .alm-btn-wrap {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .siteinspire {
-	.filtr-item {
-		padding-bottom: 20px;
+  .filtr-item {
+    padding: 0px;
+    height: calc(100px + 210px);
+    margin-bottom: 20px;
+    background-color: #312e3a;
+    position: relative;
 
-		img {
-			width: 300px;
-			height: 150px;
-		}
+    &__inner {
+      padding: 10px 20px;
+    }
 
-		.heading {
-			font-size: 14px;
-		}
-		.tags {
-			font-size: 10px;
-		}
-	}
+    img {
+      width: 300px;
+      height: 150px;
+    }
+
+    .heading {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: left;
+      color: #fefefe;
+    }
+
+    .description {
+      font-size: 12px;
+      line-height: 1.38;
+      text-align: left;
+      color: #aaacb4;
+    }
+
+    .tags {
+      position: absolute;
+      bottom: 5px;
+
+      p {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 11px;
+        font-style: oblique;
+        text-align: left;
+        color: #676373;
+        margin-bottom: 0;
+      }
+
+      svg {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
 }
