@@ -26,8 +26,8 @@ get_header(); ?>
           <p class="inspire--curated">Curated by<br> Sam Brunno, Isobar Australia.</p>
 
           <ul class="alm-filter-nav">
-            <li><a href="#" data-post-type="webgl" data-posts-per-page="12" data-category="webgl" data-scroll="true" data-button-label="More Work">ANIMATION</a></li>
-            <li><a href="#" data-post-type="webgl" data-posts-per-page="12" data-category="navigation" data-scroll="true" data-button-label="More Work">PORTFOLIO</a></li>
+            <li><a href="#" data-post-type="post" data-posts-per-page="12" data-category="gestures-interaction" data-scroll="true" data-button-label="More Work">ANIMATION</a></li>
+            <li><a href="#" data-post-type="post" data-posts-per-page="12" data-category="gestures-interaction" data-scroll="true" data-button-label="More Work">PORTFOLIO</a></li>
           </ul>
 
           <!-- For filtering controls add -->
