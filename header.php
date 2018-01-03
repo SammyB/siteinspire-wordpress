@@ -29,8 +29,8 @@
   <?php do_action( 'foundationpress_layout_start' ); ?>
 
   <header class="site-header" role="banner">
-    <nav class="site-navigation top-bar" role="navigation">
-      <div class="top-bar-left">
+    <nav class="site-navigation top-bar row" role="navigation">
+      <div class="top-bar-left columns small-12 text-left">
         <div class="site-desktop-title top-bar-title">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="24" viewBox="0 0 82 24">

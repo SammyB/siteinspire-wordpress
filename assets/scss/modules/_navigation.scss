@@ -1,7 +1,23 @@
 // Navigation breakpoints
+
+// Mobile menu
+.mobile-menu,
+.top-bar-right {
+  display: none; // prevents repaint caused by JS hiding menu onload
+}
+
 .mobile-menu,
 .site-title-bar {
-  @include hide-for(medium);
+  position: absolute;
+  display: block;
+
+  @include breakpoint(medium) {
+    display: none;
+  }
+
+  .title-bar-left {
+    padding: 20px;
+  }
 }
 
 .desktop-menu,
@@ -23,14 +39,6 @@
 .site-desktop-title a {
   font-weight: bold;
 }
-
-
-
-// Mobile menu
-.mobile-menu {
-  display: none; // prevents repaint caused by JS hiding menu onload
-}
-
 
 .mobile-menu,
 .mobile-off-canvas-menu {

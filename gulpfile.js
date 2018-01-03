@@ -34,38 +34,38 @@ var PATHS = {
     'assets/components/fontawesome/scss'
   ],
   javascript: [
+    // libs
     'assets/components/what-input/what-input.js',
     'assets/components/foundation-sites/js/foundation.core.js',
     'assets/components/foundation-sites/js/foundation.util.*.js',
-
+    
     // Paths to individual JS components defined below
     'assets/components/foundation-sites/js/foundation.abide.js',
     'assets/components/foundation-sites/js/foundation.accordion.js',
     'assets/components/foundation-sites/js/foundation.accordionMenu.js',
     'assets/components/foundation-sites/js/foundation.drilldown.js',
-    'assets/components/foundation-sites/js/foundation.dropdown.js',
-    'assets/components/foundation-sites/js/foundation.dropdownMenu.js',
+    //'assets/components/foundation-sites/js/foundation.dropdown.js',
+    //'assets/components/foundation-sites/js/foundation.dropdownMenu.js',
     'assets/components/foundation-sites/js/foundation.equalizer.js',
     'assets/components/foundation-sites/js/foundation.interchange.js',
     'assets/components/foundation-sites/js/foundation.magellan.js',
     'assets/components/foundation-sites/js/foundation.offcanvas.js',
-    'assets/components/foundation-sites/js/foundation.orbit.js',
+    //'assets/components/foundation-sites/js/foundation.orbit.js',
     'assets/components/foundation-sites/js/foundation.responsiveMenu.js',
     'assets/components/foundation-sites/js/foundation.responsiveToggle.js',
     'assets/components/foundation-sites/js/foundation.reveal.js',
-    'assets/components/foundation-sites/js/foundation.slider.js',
-    'assets/components/foundation-sites/js/foundation.sticky.js',
-    'assets/components/foundation-sites/js/foundation.tabs.js',
+    //'assets/components/foundation-sites/js/foundation.slider.js',
+    //'assets/components/foundation-sites/js/foundation.sticky.js',
+    //'assets/components/foundation-sites/js/foundation.tabs.js',
     'assets/components/foundation-sites/js/foundation.toggler.js',
     'assets/components/foundation-sites/js/foundation.tooltip.js',
-    'assets/components/foundation-sites/js/foundation.zf.responsiveAccordionTabs.js',
+    //'assets/components/foundation-sites/js/foundation.zf.responsiveAccordionTabs.js',
 
-
-    // Extra libs
+    //libs
     'assets/components/motion-ui/motion-ui.js',
     'assets/components/filterizr/dist/jquery.filterizr.min.js',
     'assets/components/featherlight/release/featherlight.min.js',
-
+    
     // Include your own custom scripts (located in the custom folder)
     'assets/javascript/custom/*.js',
   ],

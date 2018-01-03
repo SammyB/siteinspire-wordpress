@@ -30,7 +30,7 @@ get_header(); ?>
             <li><a href="#" data-post-type="post" data-posts-per-page="12" data-category="gestures-interaction" data-scroll="true" data-button-label="More Work">PORTFOLIO</a></li>
           </ul>
 
-          <!-- For filtering controls add -->
+          <!-- For filtering controls add 
           <div class="columns"> <a href="/" target="_self">All inspirations</a> </div>
           <div class="columns"> <a href="/tag/3d/" target="_self">3D</a> </div>
           <div class="columns"> <a href="/tag/animation/" target="_self">Animation</a> </div>
@@ -45,6 +45,7 @@ get_header(); ?>
           <div class="columns"> <a href="/tag/typography/" target="_self">Typography</a> </div>
           <div class="columns"> <a href="/tag/video" target="_self">Video</a> </div>
           <div class="columns"> <a href="/tag/vr/" target="_self">VR</a> </div>
+          -->
         </div>
       </div>
     </div>

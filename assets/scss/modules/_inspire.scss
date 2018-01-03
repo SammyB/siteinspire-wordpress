@@ -1,4 +1,8 @@
 .inspire {
+  &--logo {
+    padding: 10px;
+  }
+
   &--text {
     font-family: $body-font-family;
     color: #aaacb4;
@@ -9,5 +13,19 @@
     font-family: $body-font-family;
     color: #fefefe;
     text-align: left;
+  }
+
+  &__left {
+    .alm-filter-nav {
+      display: none;
+      list-style-type: none;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+
+      @include breakpoint(medium) {
+        display: block;
+      }
+    }
   }
 }
