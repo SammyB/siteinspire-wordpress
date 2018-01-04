@@ -38,6 +38,11 @@ get_header(); ?>
             <hr class="inspire--hr">
 
             <ul class="alm-filter-nav">
+               <li>
+                <a href="#" data-post-type="post" data-posts-per-page="12" data-category="" data-scroll="true" data-button-label="More Inspiration">
+                  All
+                </a>
+              </li>
               <li>
                 <a href="#" data-post-type="post" data-posts-per-page="12" data-category="3d" data-scroll="true" data-button-label="More Inspiration">
                   3D
