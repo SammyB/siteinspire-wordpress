@@ -7,7 +7,7 @@
     data-link="<?php the_field('featured_url') ?>"
     data-description="<?php the_field('featured_description') ?>"
   >
-    <img src="<?php the_field('featured_image') ?>" alt="<?php the_title(); ?>" />
+    <img src="<?php the_field('featured_image') ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" />
   </a>
   <div class="filtr-item__inner">
     <div class="heading"><?php the_title(); ?></div>

@@ -150,7 +150,7 @@ get_header(); ?>
 </div>
 <div id="mylightbox" class="lightbox">
   <h2>TITLE</h2>
-  <a href="#" target="_blank"><img src="/" /></a>
+  <a href="#" target="_blank"><img src="/" alt="Visit your inspiration!" title="Visit your inspiration!" /></a>
   <p>DESCRIPTION</p>
 </div>
 
