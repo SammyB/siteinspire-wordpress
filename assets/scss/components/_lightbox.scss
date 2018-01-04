@@ -26,7 +26,7 @@
 
     /* styling */
     cursor: pointer;
-    background: #333;
+    background: $dark-gray;
     /* IE8 "hack" for nested featherlights */
     background: rgba(0, 0, 0, 0);
 
@@ -75,14 +75,14 @@
     max-height: 95%;
 
     /* styling */
-    background: #312e3a;
+    background: $dark-gray;
     cursor: auto;
 
     /* reset white-space wrapping */
     white-space: normal;
 
     h2 {
-      color: #f14c23;
+      color: $orange;
       padding-bottom: 10px;
     }
 
@@ -119,9 +119,9 @@
     cursor: pointer;
     text-align: center;
     font-family: Arial, sans-serif;
-    background: #fff; /* Set the background in case it overlaps the content */
+    background: $white; /* Set the background in case it overlaps the content */
     background: rgba(255, 255, 255, 0.3);
-    color: #000;
+    color: $black;
     border: none;
     padding: 0;
   }

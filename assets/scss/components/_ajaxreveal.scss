@@ -19,7 +19,7 @@
 
     &__inner {
       padding: 10px 20px 0 20px;
-      background-color: #312e3a;
+      background-color: $dark-gray;
       height: calc(100% - 130px);
     }
 
@@ -29,17 +29,21 @@
     }
 
     .heading {
-      font-size: 16px;
+      font-size: 12px;
       font-weight: bold;
       text-align: left;
       color: #fefefe;
+
+      @include breakpoint(medium) {
+        font-size: 16px;
+      }
     }
 
     .description {
       font-size: 12px;
       line-height: 1.38;
       text-align: left;
-      color: #aaacb4;
+      color: $medium-gray;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -56,13 +60,17 @@
         font-size: 11px;
         font-style: oblique;
         text-align: left;
-        color: #676373;
+        color: $mediumer-gray;
         margin-bottom: 0;
         
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: calc(100px + 110px);
+        width: 100px;
+
+        @include breakpoint(medium) {
+          width: calc(100px + 110px);
+        }
       }
 
       svg {

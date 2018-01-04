@@ -25,6 +25,8 @@ get_header(); ?>
 
           <p class="inspire--curated">Curated by<br> Sam Brunno, Isobar Australia.</p>
 
+          <hr class="inspire--hr show-for-small-only">
+
           <div class="inspire__filter">
             <div class="inspire__filter--header">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
@@ -33,7 +35,7 @@ get_header(); ?>
               <p>Filter by tags</p>
             </div>
 
-            <hr>
+            <hr class="inspire--hr">
 
             <ul class="alm-filter-nav">
               <li>
@@ -108,23 +110,6 @@ get_header(); ?>
               </li>
             </ul>
           </div>
-
-          <!-- For filtering controls add 
-          <div class="columns"> <a href="/" target="_self">All inspirations</a> </div>
-          <div class="columns"> <a href="/tag/3d/" target="_self">3D</a> </div>
-          <div class="columns"> <a href="/tag/animation/" target="_self">Animation</a> </div>
-          <div class="columns"> <a href="/tag/data-driven" target="_self">Data Driven</a> </div>
-          <div class="columns"> <a href="/tag/filters-effects/" target="_self">Filters & Effects</a> </div>
-          <div class="columns"> <a href="/tag/games/" target="_self">Games</a> </div>
-          <div class="columns"> <a href="/tag/gestures-interactions/" target="_self">Gestures & Interactions</a> </div>
-          <div class="columns"> <a href="/tag/navigation/" target="_self">Navigation</a> </div>
-          <div class="columns"> <a href="/tag/parallax/" target="_self">Parallax</a> </div>
-          <div class="columns"> <a href="/tag/portfolio/" target="_self">Portfolio</a> </div>
-          <div class="columns"> <a href="/tag/retail/" target="_self">Retail</a> </div>
-          <div class="columns"> <a href="/tag/typography/" target="_self">Typography</a> </div>
-          <div class="columns"> <a href="/tag/video" target="_self">Video</a> </div>
-          <div class="columns"> <a href="/tag/vr/" target="_self">VR</a> </div>
-          -->
         </div>
       </div>
     </div>

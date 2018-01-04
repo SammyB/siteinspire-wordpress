@@ -5,7 +5,7 @@
 
   &--text {
     font-family: $body-font-family;
-    color: #aaacb4;
+    color: $medium-gray;
     text-align: left;
   }
 
@@ -13,6 +13,10 @@
     font-family: $body-font-family;
     color: #fefefe;
     text-align: left;
+  }
+
+  &--hr {
+    border-bottom: 1px solid $mediumer-gray;
   }
 
   &__left {
@@ -25,7 +29,7 @@
 
       a {
         vertical-align: top;
-        color: #676373;
+        color: $mediumer-gray;
 
         &:hover {
           color: #ffffff;
@@ -60,13 +64,14 @@
   &__filter {
     padding-top: 100px;
     text-align: left;
+    display: none;
 
-    hr {
-      border-bottom: 1px solid #676373;
+    @include breakpoint(medium) {
+      display: block;
     }
 
     &--header {
-      color: #676373;
+      color: $mediumer-gray;
       font-weight: bold;
       display: inline-block;
       line-height: 24px;
@@ -80,10 +85,26 @@
       }
     }
   }
+
+  // mobile off canvas
+  &--mobile {
+    padding: 20px;
+
+    .inspire__filter--header,
+    .inspire__filter,
+    .alm-filter-nav {
+      display: block;
+      padding-top: 0px;
+    }
+
+    .inspire__filter--header {
+      padding-top: 20px;
+    }
+  }
 }
 
 .alm-btn-wrap .alm-load-more-btn {
-  background: #f14c23 !important;
+  background: $orange !important;
   transition: background 0.5s ease, padding .25s ease-in-out, width .25s ease-in-out !important;
 
   &:hover {

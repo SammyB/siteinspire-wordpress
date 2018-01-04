@@ -126,3 +126,11 @@ jQuery(document).ready(function () {
     });
   };
 });
+
+// when closing the mobile menu, reinit filter to position right.
+jQuery(document).on('closed.zf.offcanvas',function(){
+  //You can override any of these options and then call...
+  var filterStart = $('.filtr-container').filterizr(options);
+  //If you have already instantiated your Filterizr then call...
+  filterStart.filterizr('setOptions', options);
+});
