@@ -30,8 +30,8 @@
 
   <header class="site-header" role="banner">
     <nav class="site-navigation top-bar" role="navigation">
-      <div class="top-bar-left text-left">
-        <div class="site-desktop-title top-bar-title">
+      <div class="text-center"> <!-- top-bar-left -->
+        <div class="site-desktop-title"> <!-- top-bar-title -->
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="24" viewBox="0 0 82 24">
               <defs>
@@ -48,13 +48,13 @@
           </a>
         </div>
       </div>
-      <div class="top-bar-right">
+      <!--div class="top-bar-right">
         <?php foundationpress_top_bar_r(); ?>
 
         <?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
           <?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
         <?php endif; ?>
-      </div>
+      </div-->
     </nav>
   </header>
 
