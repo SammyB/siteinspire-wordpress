@@ -7,14 +7,14 @@
     padding: 10px;
     height: calc(100px + 210px);
     margin-bottom: 0px;
-    
+
     opacity: 1;
     backface-visibility: hidden;
     perspective: 1000px;
     transform-style: preserve-3d;
     position: relative;
     transition: all 0.2s ease-out 0ms;
-    pointer-events: auto;    
+    pointer-events: auto;
     padding-bottom: 30px;
 
     &__inner {
@@ -23,9 +23,14 @@
       height: calc(100% - 130px);
     }
 
+    &__image {
+      height: 120px;
+      overflow: hidden;
+    }
+
     img {
       width: 300px;
-      height: 150px;
+      // height: 150px;
     }
 
     .heading {
@@ -47,12 +52,20 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      padding-top: 15px;
+      padding-top: 10px;
     }
 
     .tags {
       position: absolute;
-      bottom: 20px;
+      bottom: 50px;
+
+      @include breakpoint(medium) {
+        bottom: 45px;
+      }
+
+      @include breakpoint(large) {
+        bottom: 45px;
+      }
 
       p {
         display: inline-block;
@@ -60,16 +73,28 @@
         font-size: 11px;
         font-style: oblique;
         text-align: left;
-        color: $mediumer-gray;
+        color: $white;
         margin-bottom: 0;
-        
+
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         width: 100px;
 
         @include breakpoint(medium) {
-          width: calc(100px + 110px);
+          width: calc(100px + 70px);
+
+          @include breakpoint(landscape) {
+            width: calc(100px + 25px);
+          }
+        }
+
+        @include breakpoint(large) {
+          width: calc(100px + 20px);
+        }
+
+        @include breakpoint(xlarge) {
+          width: calc(100px + 100px);
         }
       }
 

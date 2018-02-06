@@ -1,4 +1,6 @@
 .inspire {
+  padding-top: 20px;
+
   &--logo {
     padding: 10px;
   }
@@ -13,6 +15,10 @@
     font-family: $body-font-family;
     color: #fefefe;
     text-align: left;
+
+    a {
+      color: $orange;
+    }
   }
 
   &--hr {
@@ -29,7 +35,7 @@
 
       a {
         vertical-align: top;
-        color: $mediumer-gray;
+        color: $orange;
 
         &:hover {
           color: #ffffff;
@@ -66,12 +72,12 @@
     text-align: left;
     display: none;
 
-    @include breakpoint(medium) {
+    @include breakpoint(xlarge) {
       display: block;
     }
 
     &--header {
-      color: $mediumer-gray;
+      color: #ffffff;
       font-weight: bold;
       display: inline-block;
       line-height: 24px;
@@ -100,6 +106,14 @@
     .inspire__filter--header {
       padding-top: 20px;
     }
+
+    &__logo {
+      width: 135px;
+    }
+  }
+
+  &--contact {
+    display: none;
   }
 }
 

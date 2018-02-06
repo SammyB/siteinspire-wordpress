@@ -14,16 +14,18 @@ get_header(); ?>
   <div class="small-12 medium-4 large-2 columns">
     <div class="row align-bottom">
       <div class="columns align-self-bottom text-center">
-        <div class="inspire__left">     
+        <div class="inspire__left">
 
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png"
+          <!--img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png"
             srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo@2x.png 2x,
             <?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo@3x.png 3x"
-            class="inspire--logo" alt="<?php bloginfo( 'name' ); ?></strong>">
-          
+            class="inspire--logo" alt="<?php bloginfo( 'name' ); ?></strong>"-->
+
           <p class="inspire--text">The latest in website, apps and site tech inspiration delivered to you monthly.</p>
 
           <p class="inspire--curated">Curated by<br> Sam Brunno, Isobar Australia.</p>
+
+          <p class="inspire--curated"><em>Powered by <a href="https://isobaracademy.com/">Isobar Academy</a></em></p>
 
           <hr class="inspire--hr show-for-small-only">
 
