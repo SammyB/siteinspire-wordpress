@@ -126,6 +126,8 @@
         </li>
       </ul>
     </div>
+
+    <a href="/archives" class="inspire--archived">Archived inspirations</a>
   </div>
 </nav>
 

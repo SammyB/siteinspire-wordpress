@@ -116,7 +116,10 @@ get_header(); ?>
                 </a>
               </li>
             </ul>
+
+            <a href="/archives" class="inspire--archived">Archived inspirations</a>
           </div>
+
         </div>
       </div>
     </div>

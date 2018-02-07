@@ -1,3 +1,32 @@
+// global stuff
+a {
+  color: $orange;
+
+  &:hover {
+    color: $orange;
+    text-decoration: underline;
+  }
+}
+
+.button {
+  background-color: $orange;
+}
+
+.pagination {
+  a,
+  button {
+    color: $white;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+  .current {
+    background: $orange;
+  }
+}
+
+// inspire section
 .inspire {
   padding-top: 20px;
 
@@ -115,6 +144,56 @@
   &--contact {
     display: none;
   }
+
+  &--archived {
+    display: block;
+    font-weight: bold;
+    padding-top: 50px;
+  }
+
+  &--webArchived {
+    h3 {
+      padding-top: 10px;
+    }
+  }
+
+  &--h1 {
+    padding-top: 20px;
+  }
+}
+
+.a2a_kit {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.switcher {
+  margin: 0 auto;
+}
+
+.site-header {
+  position: relative;
+
+  &--translate {
+    display: none;
+
+    &__mobile {
+      padding: 20px 20px 0;
+      display: block;
+
+      @include breakpoint(medium) {
+        display: none !important;
+      }
+    }
+
+    @include breakpoint(medium) {
+      display: block;
+      position: absolute;
+      right: 25px;
+      top: 30px;
+    }
+  }
 }
 
 .alm-btn-wrap .alm-load-more-btn {
@@ -123,5 +202,22 @@
 
   &:hover {
     background: #f1785a !important;
+  }
+}
+
+// archived section
+body.archive {
+
+  .author,
+  time {
+    display: none;
+  }
+
+  .widget_meta {
+    display: none;
+  }
+
+  footer {
+    padding-top: 10px;
   }
 }

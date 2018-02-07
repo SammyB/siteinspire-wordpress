@@ -60,6 +60,9 @@
           </a>
         </div>
       </div>
+      <div class="site-header--translate">
+        <?php echo do_shortcode('[gtranslate]'); ?>
+      </div>
       <!--div class="top-bar-right">
         <?php foundationpress_top_bar_r(); ?>
 
@@ -71,4 +74,7 @@
   </header>
 
   <section class="container">
+    <div class="site-header--translate site-header--translate__mobile">
+      <?php echo do_shortcode('[gtranslate]'); ?>
+    </div>
     <?php do_action( 'foundationpress_after_header' );

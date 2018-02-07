@@ -7,7 +7,17 @@
     data-link="<?php the_field('featured_url') ?>"
     data-description="<?php the_field('featured_description') ?>"
   >
-    <div class="filtr-item__image"><img src="<?php the_field('featured_image') ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" /></div>
+    <div class="filtr-item__image">
+      <img src="<?php the_field('featured_image') ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" />
+
+      <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-url="<?php the_field('featured_url') ?>" data-a2a-title="<?php the_title() ?>">
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_linkedin"></a>
+        <a class="a2a_button_email"></a>
+        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+      </div>
+    </div>
   </a>
   <div class="filtr-item__inner">
     <div class="heading"><?php the_title(); ?></div>
@@ -18,5 +28,10 @@
       </svg>
       <p><?php the_field('featured_tag_names') ?></p>
     </div>
+    <script type="text/javascript">
+      var a2a_config = a2a_config || {};
+      a2a.init('page');
+    </script>
+
   </div>
 </div>

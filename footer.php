@@ -33,7 +33,7 @@
   </div><!-- Close off-canvas wrapper -->
 <?php endif; ?>
 
-
+<script type="text/javascript" src="https://static.addtoany.com/menu/page.js"></script>
 <?php wp_footer(); ?>
 <?php do_action( 'foundationpress_before_closing_body' ); ?>
 </body>
