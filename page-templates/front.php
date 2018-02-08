@@ -145,8 +145,18 @@ get_header(); ?>
 </div>
 <div id="mylightbox" class="lightbox">
   <h2>TITLE</h2>
-  <a href="#" target="_blank"><img src="/" alt="Visit your inspiration!" title="Visit your inspiration!" /></a>
+  <a href="#" target="_blank" class="lightbox-external"><img src="/" alt="Visit your inspiration!" title="Visit your inspiration!" /></a>
   <p>DESCRIPTION</p>
+  <div class="row">
+    <div class="small-12 text-center">
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://www.google.com/" data-a2a-title="Example Page 1">
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_linkedin"></a>
+        <a class="a2a_button_email"></a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <?php do_action( 'foundationpress_after_content' ); ?>

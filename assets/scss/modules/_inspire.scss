@@ -162,10 +162,16 @@ a {
   }
 }
 
-.a2a_kit {
-  position: absolute;
-  bottom: 10px;
-  right: 0;
+.a2a {
+  &_kit {
+    position: relative;
+    display: inline-block;
+  }
+
+  &_single {
+    position: relative;
+    padding-top: 20px;
+  }
 }
 
 .switcher {

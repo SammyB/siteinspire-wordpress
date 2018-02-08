@@ -8,6 +8,10 @@
 @media all {
   .lightbox {
     display: none;
+
+    &-external {
+      display: block;
+    }
   }
 
   .featherlight {
