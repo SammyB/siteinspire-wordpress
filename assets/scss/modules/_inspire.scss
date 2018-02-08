@@ -6,10 +6,20 @@ a {
     color: $orange;
     text-decoration: underline;
   }
+
+  &:focus {
+    color: $orange;
+  }
 }
 
 .button {
   background-color: $orange;
+}
+
+.blogpost-entry {
+  h2 {
+    font-family: $body-font-family-bold;
+  }
 }
 
 .pagination {
@@ -36,17 +46,20 @@ a {
 
   &--text {
     font-family: $body-font-family;
+    font-size: 14px;
     color: $medium-gray;
     text-align: left;
   }
 
   &--curated {
-    font-family: $body-font-family;
+    font-family: $body-font-family-bold;
+    font-size: 14px;
     color: #fefefe;
     text-align: left;
 
     a {
       color: $orange;
+      font-size: 14px;
     }
   }
 
@@ -65,6 +78,7 @@ a {
       a {
         vertical-align: top;
         color: $orange;
+        font-size: 14px;
 
         &:hover {
           color: #ffffff;
@@ -110,9 +124,12 @@ a {
       font-weight: bold;
       display: inline-block;
       line-height: 24px;
+      font-size: 14px;
 
       p {
+        font-family: $body-font-family-bold;
         display: inline-block;
+        font-size: 14px;
         line-height: 24px;
         margin-bottom: 0;
         vertical-align: top;
@@ -146,18 +163,22 @@ a {
   }
 
   &--archived {
+    font-family: $body-font-family-bold;
     display: block;
     font-weight: bold;
     padding-top: 50px;
+    font-size: 14px;
   }
 
   &--webArchived {
     h3 {
       padding-top: 10px;
+      font-family: $body-font-family-bold;
     }
   }
 
   &--h1 {
+    font-family: $body-font-family-bold;
     padding-top: 20px;
   }
 }
