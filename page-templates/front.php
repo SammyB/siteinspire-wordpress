@@ -146,7 +146,11 @@ get_header(); ?>
 <div id="mylightbox" class="lightbox">
   <h2>TITLE</h2>
   <a href="#" target="_blank" class="lightbox-external"><img src="/" alt="Visit your inspiration!" title="Visit your inspiration!" /></a>
-  <p>DESCRIPTION</p>
+  <div class="row text-center">
+    <div class="small-12 medium-10 medium-offset-1 text-center">
+      <p>DESCRIPTION</p>
+    </div>
+  </div>
   <div class="row">
     <div class="small-12 text-center">
       <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://www.google.com/" data-a2a-title="Example Page 1">

@@ -217,8 +217,13 @@ a {
     @include breakpoint(medium) {
       display: block;
       position: absolute;
+      right: 55px;
+      top: 25px;
+    }
+
+    @include breakpoint(xlarge) {
       right: 25px;
-      top: 30px;
+      top: 25px;
     }
   }
 }
