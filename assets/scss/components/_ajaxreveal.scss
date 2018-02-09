@@ -27,6 +27,18 @@
       position: relative;
       height: 120px;
       overflow: hidden;
+
+      @include breakpoint(medium) {
+        height: 160px;
+      }
+
+      @include breakpoint(large) {
+        height: 140px;
+      }
+
+      @include breakpoint(xlarge) {
+        height: 160px;
+      }
     }
 
     img {
@@ -59,14 +71,18 @@
 
     .tags {
       position: absolute;
-      bottom: 50px;
+      bottom: 45px;
 
       @include breakpoint(medium) {
-        bottom: 45px;
+        bottom: 5px;
       }
 
       @include breakpoint(large) {
-        bottom: 45px;
+        bottom: 25px;
+      }
+
+      @include breakpoint(xlarge) {
+        bottom: 5px;
       }
 
       p {
