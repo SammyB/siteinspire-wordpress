@@ -138,6 +138,27 @@ a {
     }
   }
 
+  &--search {
+    position: absolute;
+    top: 18px;
+    width: 320px;
+    display: none;
+
+    @include breakpoint(large) {
+      display: block;
+      right: 220px;
+    }
+
+    @include breakpoint(xlarge) {
+      right: 185px;
+    }
+
+    .input-group {
+      padding-bottom: 0px;
+      font-size: 16px;
+    }
+  }
+
   // mobile off canvas
   &--mobile {
     padding: 20px;

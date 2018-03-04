@@ -30,9 +30,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon-16x16.png?636457394782234099">
     <meta name="msapplication-TileColor" content="#f74902">
     <meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ms-icon-144x144.png?636457394782234099">
-    <meta name="theme-color" content="#f74902"> <title>Home - Isobar Australia</title>
+    <meta name="theme-color" content="#f74902">
 
-    <meta name="og:title" content="Site Inspire - Powered by Isobar Academy">
+    <title>Isobar Inspire - The latest in website, apps and site tech inspiration delivered to you monthly.</title>
+
+    <meta name="og:title" content="Isobar Inspire - The latest in website, apps and site tech inspiration delivered to you monthly.">
     <meta name="og:description" content="Powered by Isobar Academy, this site is curated once a month to keep you inspired in your daily work life.">
     <meta property="og:image" name="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/og-image.png">
 
@@ -82,6 +84,29 @@
           </a>
         </div>
       </div>
+
+      <?php
+      /**
+       * The template for displaying search form
+       *
+       * @package FoundationPress
+       * @since FoundationPress 1.0.0
+       */
+
+      do_action( 'foundationpress_before_searchform' ); ?>
+      <form class="inspire--search" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+        <?php do_action( 'foundationpress_searchform_top' ); ?>
+        <div class="input-group">
+          <input type="text" class="input-group-field" value="" name="s" id="s" placeholder="<?php esc_attr_e( 'Search', 'foundationpress' ); ?>">
+          <?php do_action( 'foundationpress_searchform_before_search_button' ); ?>
+          <div class="input-group-button">
+            <input type="submit" id="searchsubmit" value="<?php esc_attr_e( 'Search', 'foundationpress' ); ?>" class="button">
+          </div>
+        </div>
+        <?php do_action( 'foundationpress_searchform_after_search_button' ); ?>
+      </form>
+      <?php do_action( 'foundationpress_after_searchform' ); ?>
+
       <div class="site-header--translate">
         <?php echo do_shortcode('[gtranslate]'); ?>
       </div>
