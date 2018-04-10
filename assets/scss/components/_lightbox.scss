@@ -139,7 +139,11 @@
 
   .featherlight .featherlight-image {
     /* styling */
-    width: 100%;
+    // width: 100%;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
   }
 
 

@@ -22,11 +22,6 @@
             <a href="mailto:Brandon.Lucas@isobar.com?Subject=Site%20Inspire%20Inquiry">CONTACT US</a>
           </div>
         </div>
-        <div class="row">
-         <div class="columns text-center small-12 medium-text-right">
-          <a href="http://www.isobar.com/global/en/work/" target="_blank"><strong>SEE MORE OF ISOBAR'S INSPIRATION WORK HERE.</strong></a>
-         </div>
-        </div>
         <?php do_action( 'foundationpress_after_footer' ); ?>
       </footer>
     </div>

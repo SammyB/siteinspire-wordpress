@@ -36,43 +36,38 @@ var PATHS = {
   javascript: [
     // libs
     'assets/components/what-input/what-input.js',
-    'assets/components/foundation-sites/js/foundation.core.js',
-    'assets/components/foundation-sites/js/foundation.util.*.js',
-    
+    'assets/components/foundation-sites/js/dist/foundation.core.js',
+    'assets/components/foundation-sites/js/dist/foundation.util.*.js',
+
     // Paths to individual JS components defined below
-    'assets/components/foundation-sites/js/foundation.abide.js',
-    'assets/components/foundation-sites/js/foundation.accordion.js',
-    'assets/components/foundation-sites/js/foundation.accordionMenu.js',
-    'assets/components/foundation-sites/js/foundation.drilldown.js',
-    //'assets/components/foundation-sites/js/foundation.dropdown.js',
-    //'assets/components/foundation-sites/js/foundation.dropdownMenu.js',
-    'assets/components/foundation-sites/js/foundation.equalizer.js',
-    'assets/components/foundation-sites/js/foundation.interchange.js',
-    'assets/components/foundation-sites/js/foundation.magellan.js',
-    'assets/components/foundation-sites/js/foundation.offcanvas.js',
-    //'assets/components/foundation-sites/js/foundation.orbit.js',
-    'assets/components/foundation-sites/js/foundation.responsiveMenu.js',
-    'assets/components/foundation-sites/js/foundation.responsiveToggle.js',
-    'assets/components/foundation-sites/js/foundation.reveal.js',
-    //'assets/components/foundation-sites/js/foundation.slider.js',
-    //'assets/components/foundation-sites/js/foundation.sticky.js',
-    //'assets/components/foundation-sites/js/foundation.tabs.js',
-    'assets/components/foundation-sites/js/foundation.toggler.js',
-    'assets/components/foundation-sites/js/foundation.tooltip.js',
-    //'assets/components/foundation-sites/js/foundation.zf.responsiveAccordionTabs.js',
+    'assets/components/foundation-sites/js/dist/foundation.abide.js',
+    'assets/components/foundation-sites/js/dist/foundation.accordion.js',
+    'assets/components/foundation-sites/js/dist/foundation.accordionMenu.js',
+    'assets/components/foundation-sites/js/dist/foundation.drilldown.js',
+    //'assets/components/foundation-sites/js/dist/foundation.dropdown.js',
+    //'assets/components/foundation-sites/js/dist/foundation.dropdownMenu.js',
+    'assets/components/foundation-sites/js/dist/foundation.equalizer.js',
+    'assets/components/foundation-sites/js/dist/foundation.interchange.js',
+    'assets/components/foundation-sites/js/dist/foundation.magellan.js',
+    'assets/components/foundation-sites/js/dist/foundation.offcanvas.js',
+    //'assets/components/foundation-sites/js/dist/foundation.orbit.js',
+    'assets/components/foundation-sites/js/dist/foundation.responsiveMenu.js',
+    'assets/components/foundation-sites/js/dist/foundation.responsiveToggle.js',
+    'assets/components/foundation-sites/js/dist/foundation.reveal.js',
+    //'assets/components/foundation-sites/js/dist/foundation.slider.js',
+    //'assets/components/foundation-sites/js/dist/foundation.sticky.js',
+    //'assets/components/foundation-sites/js/dist/foundation.tabs.js',
+    'assets/components/foundation-sites/js/dist/foundation.toggler.js',
+    //'assets/components/foundation-sites/js/dist/foundation.tooltip.js',
+    //'assets/components/foundation-sites/js/dist/foundation.zf.responsiveAccordionTabs.js',
 
     //libs
     'assets/components/motion-ui/motion-ui.js',
     'assets/components/filterizr/dist/jquery.filterizr.min.js',
     'assets/components/featherlight/release/featherlight.min.js',
-    
+
     // Include your own custom scripts (located in the custom folder)
     'assets/javascript/custom/*.js',
-  ],
-  phpcs: [
-    '**/*.php',
-    '!wpcs',
-    '!wpcs/**',
   ],
   pkg: [
     '**/*',
@@ -93,9 +88,9 @@ var PATHS = {
 gulp.task('browser-sync', ['build'], function() {
 
   var files = [
-            '**/*.php',
-            'assets/images/**/*.{png,jpg,gif}',
-          ];
+    '**/*.php',
+    'assets/images/**/*.{png,jpg,gif}',
+  ];
 
   browserSync.init(files, {
     // Proxy address
@@ -194,29 +189,6 @@ gulp.task('build', ['clean'], function(done) {
   sequence('copy',
           ['sass', 'javascript', 'lint'],
           done);
-});
-
-// PHP Code Sniffer task
-gulp.task('phpcs', function() {
-  return gulp.src(PATHS.phpcs)
-    .pipe($.phpcs({
-      bin: 'wpcs/vendor/bin/phpcs',
-      standard: './codesniffer.ruleset.xml',
-      showSniffCode: true,
-    }))
-    .pipe($.phpcs.reporter('log'));
-});
-
-// PHP Code Beautifier task
-gulp.task('phpcbf', function () {
-  return gulp.src(PATHS.phpcs)
-  .pipe($.phpcbf({
-    bin: 'wpcs/vendor/bin/phpcbf',
-    standard: './codesniffer.ruleset.xml',
-    warningSeverity: 0
-  }))
-  .on('error', $.util.log)
-  .pipe(gulp.dest('.'));
 });
 
 // Clean task

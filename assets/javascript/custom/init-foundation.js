@@ -18,8 +18,12 @@ var options = {
   setupControls: true
 };
 
-jQuery(document).foundation();
+// init foundation
+window.onload = function() {
+  jQuery(document).foundation();
+};
 
+// init particles, needs to be seperate
 window.onload = function() {
   Particles.init({
     selector: 'canvas.background',
