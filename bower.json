@@ -7,9 +7,9 @@
   "ignore": [],
   "dependencies": {
     "foundation-sites": "~6.4.3",
-    "motion-ui" : "~1.2.2",
+    "motion-ui" : "~1.2.3",
     "fontawesome": "~4.7.0",
-    "filterizr": "~1.2.5",
-    "featherlight": "~1.7.7"
+    "filterizr": "~1.3.5",
+    "featherlight": "~1.7.13"
   }
 }

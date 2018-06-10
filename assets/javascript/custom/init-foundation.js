@@ -20,7 +20,7 @@ var options = {
 
 // init foundation
 window.onload = function() {
-  jQuery(document).foundation();
+  $(document).foundation();
 };
 
 // init particles, needs to be seperate
