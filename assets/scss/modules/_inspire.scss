@@ -1,18 +1,66 @@
+// global stuff
+a {
+  color: $orange;
+
+  &:hover {
+    color: $orange;
+    text-decoration: underline;
+  }
+
+  &:focus {
+    color: $orange;
+  }
+}
+
+.button {
+  background-color: $orange;
+}
+
+.blogpost-entry {
+  h2 {
+    font-family: $body-font-family-bold;
+  }
+}
+
+.pagination {
+  a,
+  button {
+    color: $white;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+  .current {
+    background: $orange;
+  }
+}
+
+// inspire section
 .inspire {
+  padding-top: 20px;
+
   &--logo {
     padding: 10px;
   }
 
   &--text {
     font-family: $body-font-family;
+    font-size: 14px;
     color: $medium-gray;
     text-align: left;
   }
 
   &--curated {
-    font-family: $body-font-family;
+    font-family: $body-font-family-bold;
+    font-size: 14px;
     color: #fefefe;
     text-align: left;
+
+    a {
+      color: $orange;
+      font-size: 14px;
+    }
   }
 
   &--hr {
@@ -29,7 +77,8 @@
 
       a {
         vertical-align: top;
-        color: $mediumer-gray;
+        color: $orange;
+        font-size: 14px;
 
         &:hover {
           color: #ffffff;
@@ -66,23 +115,47 @@
     text-align: left;
     display: none;
 
-    @include breakpoint(medium) {
+    @include breakpoint(xlarge) {
       display: block;
     }
 
     &--header {
-      color: $mediumer-gray;
+      color: #ffffff;
       font-weight: bold;
       display: inline-block;
       line-height: 24px;
+      font-size: 14px;
 
       p {
+        font-family: $body-font-family-bold;
         display: inline-block;
+        font-size: 14px;
         line-height: 24px;
         margin-bottom: 0;
         vertical-align: top;
         padding-left: 5px;
       }
+    }
+  }
+
+  &--search {
+    position: absolute;
+    top: 18px;
+    width: 320px;
+    display: none;
+
+    @include breakpoint(large) {
+      display: block;
+      right: 220px;
+    }
+
+    @include breakpoint(xlarge) {
+      right: 185px;
+    }
+
+    .input-group {
+      padding-bottom: 0px;
+      font-size: 16px;
     }
   }
 
@@ -100,6 +173,79 @@
     .inspire__filter--header {
       padding-top: 20px;
     }
+
+    &__logo {
+      width: 135px;
+    }
+  }
+
+  &--contact {
+    display: none;
+  }
+
+  &--archived {
+    font-family: $body-font-family-bold;
+    display: block;
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 14px;
+  }
+
+  &--webArchived {
+    h3 {
+      padding-top: 10px;
+      font-family: $body-font-family-bold;
+    }
+  }
+
+  &--h1 {
+    font-family: $body-font-family-bold;
+    padding-top: 20px;
+  }
+}
+
+.a2a {
+  &_kit {
+    position: relative;
+    display: inline-block;
+  }
+
+  &_single {
+    position: relative;
+    padding-top: 20px;
+  }
+}
+
+.switcher {
+  margin: 0 auto;
+}
+
+.site-header {
+  position: relative;
+
+  &--translate {
+    display: none;
+
+    &__mobile {
+      padding: 20px 20px 0;
+      display: block;
+
+      @include breakpoint(medium) {
+        display: none !important;
+      }
+    }
+
+    @include breakpoint(medium) {
+      display: block;
+      position: absolute;
+      right: 55px;
+      top: 25px;
+    }
+
+    @include breakpoint(xlarge) {
+      right: 25px;
+      top: 25px;
+    }
   }
 }
 
@@ -109,5 +255,22 @@
 
   &:hover {
     background: #f1785a !important;
+  }
+}
+
+// archived section
+body.archive {
+
+  .author,
+  time {
+    display: none;
+  }
+
+  .widget_meta {
+    display: none;
+  }
+
+  footer {
+    padding-top: 10px;
   }
 }

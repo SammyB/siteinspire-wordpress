@@ -18,8 +18,12 @@ var options = {
   setupControls: true
 };
 
-jQuery(document).foundation();
+// init foundation
+window.onload = function() {
+  $(document).foundation();
+};
 
+// init particles, needs to be seperate
 window.onload = function() {
   Particles.init({
     selector: 'canvas.background',
@@ -65,13 +69,25 @@ $.fn.almDone = function(alm){
           $link = this.$currentTarget[0].dataset.link;
 
       // link
-      $('#mylightbox').find('a').attr('href', $link);
+      $('#mylightbox').find('a.lightbox-external').attr('href', $link);
       // title
       $('#mylightbox').find('h2').empty().append($title);
       // content
       $('#mylightbox').find('p').empty().append($description);
       // image
       $('#mylightbox').find('img').attr('src', $image);
+
+      // setup sharing
+      $("#mylightbox").find('div.a2a_kit').attr("data-a2a-url", $link);
+      $("#mylightbox").find('div.a2a_kit').attr("data-a2a-title", $title);
+    },
+    afterContent: function(){
+      var $title = this.$currentTarget[0].dataset.title,
+          $link = this.$currentTarget[0].dataset.link;
+
+      // initialize sharing
+      var a2a_config = a2a_config || {};
+          a2a.init('page');
     }
   });
 };
@@ -89,7 +105,7 @@ $('.alm-filter-nav li a').on('click', function(e){
     // Check for active and !alm_is_animating
      alm_is_animating = true;
      el.parent().addClass('active').siblings('li').removeClass('active');
-     
+
      // Add active state
      var data = el.data(), // Get data values from selected menu item
          transition = 'fade', // 'slide' | 'fade' | null
@@ -115,13 +131,25 @@ jQuery(document).ready(function () {
             $link = this.$currentTarget[0].dataset.link;
 
         // link
-        $('#mylightbox').find('a').attr('href', $link);
+        $('#mylightbox').find('a.lightbox-external').attr('href', $link);
         // title
         $('#mylightbox').find('h2').empty().append($title);
         // content
         $('#mylightbox').find('p').empty().append($description);
         // image
         $('#mylightbox').find('img').attr('src', $image);
+
+        // setup sharing
+        $("#mylightbox").find('div.a2a_kit').attr("data-a2a-url", $link);
+        $("#mylightbox").find('div.a2a_kit').attr("data-a2a-title", $title);
+      },
+      afterContent: function(){
+        var $title = this.$currentTarget[0].dataset.title,
+            $link = this.$currentTarget[0].dataset.link;
+
+        // initialize sharing
+        var a2a_config = a2a_config || {};
+            a2a.init('page');
       }
     });
   };

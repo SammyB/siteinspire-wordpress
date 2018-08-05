@@ -14,16 +14,18 @@ get_header(); ?>
   <div class="small-12 medium-4 large-2 columns">
     <div class="row align-bottom">
       <div class="columns align-self-bottom text-center">
-        <div class="inspire__left">     
+        <div class="inspire__left">
 
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png"
+          <!--img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png"
             srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo@2x.png 2x,
             <?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo@3x.png 3x"
-            class="inspire--logo" alt="<?php bloginfo( 'name' ); ?></strong>">
-          
+            class="inspire--logo" alt="<?php bloginfo( 'name' ); ?></strong>"-->
+
           <p class="inspire--text">The latest in website, apps and site tech inspiration delivered to you monthly.</p>
 
           <p class="inspire--curated">Curated by<br> Sam Brunno, Isobar Australia.</p>
+
+          <p class="inspire--curated"><em>Powered by <a href="https://isobaracademy.com/">Isobar Academy</a></em></p>
 
           <hr class="inspire--hr show-for-small-only">
 
@@ -38,7 +40,7 @@ get_header(); ?>
             <hr class="inspire--hr">
 
             <ul class="alm-filter-nav">
-               <li>
+               <li class="active">
                 <a href="#" data-post-type="post" data-posts-per-page="12" data-category="" data-scroll="true" data-button-label="More Inspiration">
                   All
                 </a>
@@ -114,7 +116,10 @@ get_header(); ?>
                 </a>
               </li>
             </ul>
+
+            <a href="/archives" class="inspire--archived">Archived inspirations</a>
           </div>
+
         </div>
       </div>
     </div>
@@ -140,8 +145,22 @@ get_header(); ?>
 </div>
 <div id="mylightbox" class="lightbox">
   <h2>TITLE</h2>
-  <a href="#" target="_blank"><img src="/" alt="Visit your inspiration!" title="Visit your inspiration!" /></a>
-  <p>DESCRIPTION</p>
+  <a href="#" target="_blank" class="lightbox-external"><img src="/" alt="Visit your inspiration!" title="Visit your inspiration!" /></a>
+  <div class="row text-center">
+    <div class="small-12 medium-10 medium-offset-1 text-center">
+      <p>DESCRIPTION</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 text-center">
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://www.google.com/" data-a2a-title="Example Page 1">
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_linkedin"></a>
+        <a class="a2a_button_email"></a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <?php do_action( 'foundationpress_after_content' ); ?>

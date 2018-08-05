@@ -3,6 +3,7 @@
   width: 100%;
   margin: 0 auto;
   margin-top: rem-calc(60);
+  background-color: $dark-gray;
 }
 
 .footer {
@@ -15,7 +16,14 @@
     padding: 0;
   }
 
+  h6, p {
+    color: $mediumer-gray;
+    font-size: 14px;
+  }
+
   a {
     color: $orange;
+    font-size: 14px;
+    font-weight: bold;
   }
 }

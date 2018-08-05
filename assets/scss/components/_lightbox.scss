@@ -8,6 +8,10 @@
 @media all {
   .lightbox {
     display: none;
+
+    &-external {
+      display: block;
+    }
   }
 
   .featherlight {
@@ -65,7 +69,7 @@
     display: inline-block;
 
     /* dimensions: cut off images */
-    overflow: auto;
+    overflow: hidden;
     padding: 25px 25px 0;
     border-bottom: 25px solid transparent;
 
@@ -83,7 +87,8 @@
 
     h2 {
       color: $orange;
-      padding-bottom: 10px;
+      font-family: $body-font-family-bold;
+      padding: 5px 10px;
     }
 
     p {
@@ -134,7 +139,11 @@
 
   .featherlight .featherlight-image {
     /* styling */
-    width: 100%;
+    // width: 100%;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
   }
 
 

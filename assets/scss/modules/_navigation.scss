@@ -10,13 +10,22 @@
 .site-title-bar {
   position: absolute;
   display: block;
+  width: 100%;
+  z-index: 100;
 
-  @include breakpoint(medium) {
+  @include breakpoint(xlarge) {
     display: none;
   }
 
-  .title-bar-left {
+  .title-bar-right {
     padding: 20px;
+  }
+
+  .menu-icon {
+    &::after {
+      background-color: $orange;
+      box-shadow: 0 7px 0 $orange, 0 14px 0 $orange;
+    }
   }
 }
 
@@ -27,7 +36,7 @@
 
 .top-bar,
 .top-bar ul {
-  background-color: $body-background;
+  background-color: $white;
 }
 
 
@@ -36,9 +45,15 @@
   // placeholder
 }
 
-.site-desktop-title a {
-  padding: 20px;
-  display: block;
+.site-desktop-title {
+  &__logo {
+    width: 255px;
+  }
+
+  a {
+    padding: 20px;
+    display: inline-block;
+  }
 }
 
 .mobile-menu,
