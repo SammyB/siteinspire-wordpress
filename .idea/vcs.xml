@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wordpress-local/wp-content/themes/siteinspire-wordpress" vcs="Git" />
   </component>
 </project>
