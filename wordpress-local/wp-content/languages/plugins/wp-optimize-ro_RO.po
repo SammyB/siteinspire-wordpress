@@ -1,0 +1,715 @@
+# Translation of Stable (latest release) in Romanian
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-08 21:05:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: wp-optimize-admin.php:25 wp-optimize-admin.php:43 wp-optimize.php:96
+msgid "Optimizer"
+msgstr "Instrument de optimizare"
+
+#: wp-optimize-admin.php:28 wp-optimize-admin.php:46
+msgid "MYSQL"
+msgstr "MySQL"
+
+#: wp-optimize-admin.php:33 wp-optimize-admin.php:54 wp-optimize.php:95
+msgid "Settings"
+msgstr "Setări"
+
+#: wp-optimize-admin.php:34 wp-optimize-admin.php:56
+msgid "Info"
+msgstr "Informații"
+
+#: wp-optimize-admin.php:52 wp-optimize-tables.php:37
+msgid "Tables"
+msgstr "Tabele"
+
+#: wp-optimize-common.php:72
+msgid "Automatic Operation Completed"
+msgstr "Operația automată s-a finalizat"
+
+#: wp-optimize-common.php:74
+msgid "Scheduled optimization was executed at"
+msgstr "Optimizarea programată a fost executat la"
+
+#: wp-optimize-common.php:76
+msgid "You can safely delete this email."
+msgstr "Poți șterge în siguranță acest email."
+
+#: wp-optimize-common.php:78
+msgid "Regards,"
+msgstr "Complimente,"
+
+#: wp-optimize-common.php:79
+msgid "WP-Optimize Plugin"
+msgstr "Modulul WP-Optimize"
+
+#: wp-optimize-common.php:539
+msgid "GB"
+msgstr "GB"
+
+#: wp-optimize-common.php:541
+msgid "MB"
+msgstr "MB"
+
+#: wp-optimize-common.php:543
+msgid "KB"
+msgstr "KB"
+
+#: wp-optimize-common.php:545
+msgid "bytes"
+msgstr "octeți"
+
+#: wp-optimize-common.php:635
+msgid "transient options deleted"
+msgstr "opțiunile tranzitorii s-au șters"
+
+#: wp-optimize-common.php:662
+msgid "post revisions deleted"
+msgstr "reviziile articolului s-au șters"
+
+#: wp-optimize-common.php:673
+msgid "auto drafts deleted"
+msgstr "ciornele automate s-au șters"
+
+#: wp-optimize-common.php:683
+msgid "items removed from Trash"
+msgstr "elementele s-au eliminat din gunoi"
+
+#: wp-optimize-common.php:695
+msgid "spam comments deleted"
+msgstr "comentariile spam s-au șters"
+
+#: wp-optimize-common.php:704
+msgid "comments removed from Trash"
+msgstr "comentariile s-au eliminat din gunoi"
+
+#: wp-optimize-common.php:710
+msgid "unused comment metadata items removed"
+msgstr "elementele metadate pentru comentariile nefolosite s-au eliminat"
+
+#: wp-optimize-common.php:716
+msgid "unused akismet comment metadata items removed"
+msgstr "elementele metadate pentru comentariile Akismet nefolosite s-au eliminat"
+
+#: wp-optimize-common.php:726
+msgid "unapproved comments deleted"
+msgstr "comentariile neaprobate s-au șters"
+
+#: wp-optimize-common.php:732
+msgid "pingbacks deleted"
+msgstr "pingback-urile s-au șters"
+
+#: wp-optimize-common.php:738
+msgid "trackbacks deleted"
+msgstr "trackback-urile s-au șters"
+
+#: wp-optimize-common.php:745
+msgid "Enabled weekly processing"
+msgstr "Activare prelucrare săptămânală"
+
+#: wp-optimize-common.php:751
+msgid "Disabled weekly processing"
+msgstr "Dezactivare prelucrare săptămânală"
+
+#: wp-optimize-common.php:760
+msgid "NO Actions Taken"
+msgstr "Nu s-a întreprins nicio acțiune"
+
+#: wp-optimize-common.php:787
+msgid "transient options in your database"
+msgstr "opțiuni tranzitorii în baza ta de date"
+
+#: wp-optimize-common.php:789
+msgid "No transient options found"
+msgstr "Nu s-au găsit opțiuni tranzitorii"
+
+#: wp-optimize-common.php:798
+msgid "orphaned postmeta in your database"
+msgstr "meta articol sărac în baza ta de date"
+
+#: wp-optimize-common.php:800
+msgid "No orphaned postmeta in your database"
+msgstr "Niciun meta articol sărac în baza ta de date"
+
+#: wp-optimize-common.php:809
+msgid "unused tags in your database"
+msgstr "etichete nefolosite în baza ta de date"
+
+#: wp-optimize-common.php:811
+msgid "No unused tags found"
+msgstr "Nu s-au găsit etichete nefolosite"
+
+#: wp-optimize-common.php:824
+msgid "post revisions in your database"
+msgstr "revizii articol în baza ta de date"
+
+#: wp-optimize-common.php:826
+msgid "No post revisions found"
+msgstr "Nu s-au găsit revizii articol"
+
+#: wp-optimize-common.php:839
+msgid "auto draft post(s) in your database"
+msgstr "ciorne automate articol(e) în baza ta de date"
+
+#: wp-optimize-common.php:841
+msgid "No auto draft posts found"
+msgstr "Nu s-au găsit ciorne automate articol"
+
+#: wp-optimize-common.php:853
+msgid "spam comments found"
+msgstr "s-au găsit comentarii spam"
+
+#: wp-optimize-common.php:853 wp-optimize-common.php:884
+msgid "Review"
+msgstr "Recenzie"
+
+#: wp-optimize-common.php:855
+msgid "No spam comments found"
+msgstr "Nu s-au găsit comentarii spam"
+
+#: wp-optimize-common.php:884
+msgid "unapproved comments found"
+msgstr "s-au găsit comentarii neaprobate"
+
+#: wp-optimize-common.php:886
+msgid "No unapproved comments found"
+msgstr "Nu s-au găsit comentarii neaprobate"
+
+#: wp-optimize-common.php:894
+msgid "Pingbacks found"
+msgstr "S-au găsit pingback-uri"
+
+#: wp-optimize-common.php:896
+msgid "No pingbacks found"
+msgstr "Nu s-au găsit pingback-uri"
+
+#: wp-optimize-common.php:904
+msgid "Trackbacks found"
+msgstr "S-au găsit trackback-uri"
+
+#: wp-optimize-common.php:906
+msgid "No trackbacks found"
+msgstr "Nu s-au găsit trackback-uri"
+
+#: wp-optimize-common.php:912
+msgid "nothing"
+msgstr "nimic"
+
+#: wp-optimize-credits.php:14
+msgid "Credits"
+msgstr "Mulțumiri"
+
+#: wp-optimize-credits.php:15
+msgid "WP-Optimize started as a utility for my own projects. I have realized soon, that this plugin might help a lot of people out there. I am personally thanking all of the users who use this plugin as a daily basis. Also thank you all of the translators and the generous people who have donated for this project."
+msgstr "WP-Optimize a început ca o utilitate pentru propriile mele proiecte. Mi-am dat seama repede că acest modul ar putea ajuta o mulțime de oameni. Mulțumesc personal tuturor utilizatorilor care folosesc acest modul zi de zi. De asemenea, mulțumesc tuturor traducătorilor și oamenilor generoși care au donat pentru acest proiect."
+
+#: wp-optimize-credits.php:29
+msgid "Contributing Developers"
+msgstr "Contribuția dezvoltatorilor"
+
+#: wp-optimize-credits.php:30
+msgid "Help me make this plugin better"
+msgstr "Ajută-mă să îmbunătățesc acest modul"
+
+#: wp-optimize-credits.php:30
+msgid "I am looking for contributing developers."
+msgstr "Caut dezvoltatori care să contribuie."
+
+#: wp-optimize-credits.php:31
+msgid "Your name and website will be credited here in the plugin"
+msgstr "Numele și situl tău va fi public aici, în modul"
+
+#: wp-optimize-credits.php:40
+msgid "Translators"
+msgstr "Traducători"
+
+#: wp-optimize-credits.php:41
+msgid "http://(Translator Website)"
+msgstr "http://(Translator Website)"
+
+#: wp-optimize-credits.php:41
+msgid "(Translator name)"
+msgstr "(nume traducător)"
+
+#: wp-optimize-credits.php:43
+msgid "Read Translation Instructions"
+msgstr "Citește instrucțiunile pentru traducere"
+
+#: wp-optimize-credits.php:49
+msgid "Plugin Resources"
+msgstr "Resurse modul"
+
+#: wp-optimize-credits.php:51
+msgid "Get a Translator Account"
+msgstr "Obține un cont de traducător"
+
+#: wp-optimize-credits.php:52
+msgid "Plugin Translation Portal (needs translator account)"
+msgstr "Portal de traducere modul (necesită un cont pentru traducător)"
+
+#: wp-optimize-credits.php:54
+msgid "Plugin Homepage"
+msgstr "Prima pagină a modulului"
+
+#: wp-optimize-credits.php:55
+msgid "Support (GitHub)"
+msgstr "Suport (GitHub)"
+
+#: wp-optimize-credits.php:56
+msgid "Support E-mail"
+msgstr "Suport prin email"
+
+#: wp-optimize-credits.php:57
+msgid "Change Log"
+msgstr "Istoric"
+
+#: wp-optimize-credits.php:58
+msgid "FAQ"
+msgstr "Întrebări frecvente"
+
+#: wp-optimize-credits.php:67
+msgid "GitHub Development Log"
+msgstr "Jurnal de dezvoltare GitHub"
+
+#: wp-optimize-credits.php:87
+msgid "No items"
+msgstr "Niciun element"
+
+#: wp-optimize-main.php:76
+msgid "Database Optimized!"
+msgstr "Baza de date s-a optimizat!"
+
+#: wp-optimize-main.php:154 wp-optimize-main.php:156
+msgid "Clean-up options"
+msgstr "Curățare opțiuni"
+
+#: wp-optimize-main.php:165
+msgid "Clean post revisions which are older than "
+msgstr "Curăță reviziile articolului care sunt mai vechi de"
+
+#: wp-optimize-main.php:168 wp-optimize-main.php:186 wp-optimize-main.php:206
+#: wp-optimize-main.php:225
+msgid "weeks"
+msgstr "sămptămâni"
+
+#: wp-optimize-main.php:170
+msgid "Clean all post revisions"
+msgstr "Curăță toate reviziile articolului"
+
+#: wp-optimize-main.php:183
+msgid "Clean auto draft posts which are older than "
+msgstr "Curăță ciornele automate ale articolelor care sunt mai vechi de"
+
+#: wp-optimize-main.php:188
+msgid "Clean all auto draft posts and posts in trash"
+msgstr "Curăță toate ciornele articolelor și articolele din gunoi"
+
+#: wp-optimize-main.php:203
+msgid "Remove spam comments which are older than "
+msgstr "Elimină comentariile spam care sunt mai vechi de"
+
+#: wp-optimize-main.php:208
+msgid "Remove spam comments and comments in trash"
+msgstr "Elimină comentariile spam și comentariile din gunoi"
+
+#: wp-optimize-main.php:222
+msgid "Remove unapproved comments which are older than "
+msgstr "Elimină comentariile neaprobate care sunt mai vechi de"
+
+#: wp-optimize-main.php:227 wp-optimize-settings.php:287
+msgid "Remove unapproved comments"
+msgstr "Elimină comentariile neaprobate"
+
+#: wp-optimize-main.php:240 wp-optimize-settings.php:292
+msgid "Remove transient options"
+msgstr "Elimină opțiunile tranzitorii"
+
+#: wp-optimize-main.php:251
+msgid "Remove pingbacks"
+msgstr "Elimină pingback-urile"
+
+#: wp-optimize-main.php:262
+msgid "Remove trackbacks"
+msgstr "Elimină trackback-urile"
+
+#: wp-optimize-main.php:272
+msgid "Do not select RED marked items unless you really need to use them"
+msgstr "Nu selecta elementele marcate cu ROȘU decât dacă într-adevăr trebuie să le folosești"
+
+#: wp-optimize-main.php:278 wp-optimize-settings.php:206
+msgid "Optimize your YouTube embedding in WordPress with this plugin"
+msgstr "Optimizează-ți înglobarea YouTube în WordPress cu acest modul"
+
+#: wp-optimize-main.php:288
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: wp-optimize-main.php:297
+msgid "Optimize database tables"
+msgstr "Optimizare tabele bază de date"
+
+#: wp-optimize-main.php:305
+msgid "Note:"
+msgstr "Notă:"
+
+#: wp-optimize-main.php:308
+msgid "InnoDB tables will not be optimized"
+msgstr "Tabelele InnoDB nu vor fi optimizate"
+
+#: wp-optimize-main.php:314
+msgid "Select safe options"
+msgstr "Selectează opțiuni sigure"
+
+#: wp-optimize-main.php:315
+msgid "Warning:"
+msgstr "Avertizare:"
+
+#: wp-optimize-main.php:316
+msgid "Always make a backup of your DB when you upgrade to major versions"
+msgstr "Fă-ți întotdeauna o copie de rezervă a bazei de date atunci când actualizezi la versiuni importante"
+
+#: wp-optimize-main.php:321
+msgid "PROCESS"
+msgstr "Prelucrare"
+
+#: wp-optimize-main.php:327
+msgid "Please donate! It really helps me keep improvising"
+msgstr "Te rog donează! Mă ajută cu adevarat să improvizez"
+
+#: wp-optimize-main.php:327
+msgid "Donate!"
+msgstr "Donează!"
+
+#: wp-optimize-main.php:328
+msgid "Please give a proper rating:)"
+msgstr "Te rog să faci o evaluare:)"
+
+#: wp-optimize-main.php:329
+msgid "Rating"
+msgstr "Evaluare"
+
+#: wp-optimize-main.php:334
+msgid "Status log: "
+msgstr "Jurnal stare:"
+
+#: wp-optimize-main.php:349
+msgid "Last automatic optimization was at"
+msgstr "Ultima optimizare automată a fost la"
+
+#: wp-optimize-main.php:361
+msgid "There was no automatic optimization"
+msgstr "Nu a existat nicio optimizare automată"
+
+#: wp-optimize-main.php:376
+msgid "Scheduled cleaning enabled"
+msgstr "Curățarea programată activată"
+
+#: wp-optimize-main.php:388
+msgid "Next schedule"
+msgstr "Următoarea programă"
+
+#: wp-optimize-main.php:399
+msgid "Refresh"
+msgstr "Reîncărcare"
+
+#: wp-optimize-main.php:408
+msgid "Scheduled cleaning disabled"
+msgstr "Curățarea programată dezactivată"
+
+#: wp-optimize-main.php:411 wp-optimize-main.php:436
+msgid "Check settings"
+msgstr "Verificare setări"
+
+#: wp-optimize-main.php:422
+msgid "Keeping last "
+msgstr "Ultima păstrare"
+
+#: wp-optimize-main.php:425 wp-optimize-settings.php:147
+msgid "weeks data"
+msgstr "date săptămânale"
+
+#: wp-optimize-main.php:433
+msgid "Not keeping recent data"
+msgstr "Nu păstra datele recente"
+
+#: wp-optimize-main.php:450
+msgid "Current database size : "
+msgstr "Dimensiunea actuală a bazei de date:"
+
+#: wp-optimize-main.php:455
+msgid "You have saved"
+msgstr "Ai salvat"
+
+#: wp-optimize-main.php:462
+msgid "Current database size"
+msgstr "Dimensiunea actuală a bazei de date"
+
+#: wp-optimize-main.php:470
+msgid "You can save almost"
+msgstr "Ai putea salva aproape"
+
+#: wp-optimize-main.php:487
+msgid "Total clean up overall"
+msgstr "Curățare în total"
+
+#: wp-optimize-main.php:508
+msgid "Sponsor"
+msgstr "Sponsor"
+
+#: wp-optimize-settings.php:87
+msgid "Trackbacks disabled on all current and previously published posts"
+msgstr "Trackback-urile dezactivate pentru toate posturile publicate, actuale și anterioare"
+
+#: wp-optimize-settings.php:93
+msgid "Trackbacks enabled on all current and previously published posts"
+msgstr "Trackback-urile activate pentru toate posturile publicate, actuale și anterioare"
+
+#: wp-optimize-settings.php:102
+msgid "Comments disabled on all current and previously published posts"
+msgstr "Comentariile dezactivate pentru toate posturile publicate, actuale și anterioare"
+
+#: wp-optimize-settings.php:108
+msgid "Comments enabled on all current and previously published posts"
+msgstr "Comentariile activate pentru toate posturile publicate, actuale și anterioare"
+
+#: wp-optimize-settings.php:114
+msgid "Settings updated"
+msgstr "Setările s-au actualizat"
+
+#: wp-optimize-settings.php:131
+msgid "General Settings"
+msgstr "Setări generale"
+
+#: wp-optimize-settings.php:136
+msgid "Keep last "
+msgstr "Păstrează ultima"
+
+#: wp-optimize-settings.php:152
+msgid "This option will retain the last selected weeks data and remove any garbage data before that period. This will also affect Auto Clean-up process"
+msgstr "Această opțiune va păstra datele selectate pentru ultimele săptămâni și elimină din gunoi orice alte date dinainte de această perioadă. Acest lucru va afecta, de asemenea, procesul de auto-curățare"
+
+#: wp-optimize-settings.php:161
+msgid "Enable admin bar link "
+msgstr "Activare legătură în bara de administrare"
+
+#: wp-optimize-settings.php:163
+msgid "(Click here to refresh)"
+msgstr "(Clic aici pentru reîncărcare)"
+
+#: wp-optimize-settings.php:169
+msgid "This option will put WP-Optimize link on the top admin bar (default is off). Requires page refresh."
+msgstr "Această opțiune va adăuga o legătură WP-Optimize în bara de administrare de sus (implicit este oprită). Necesită reîncărcarea paginii."
+
+#: wp-optimize-settings.php:173
+msgid "Trackback/Comments Actions"
+msgstr "Acțiuni trackback/comentarii"
+
+#: wp-optimize-settings.php:175
+msgid "Disable/Enable Trackbacks"
+msgstr "Dezactivează/activează trackback-uri"
+
+#: wp-optimize-settings.php:177 wp-optimize-settings.php:192
+msgid "SELECT"
+msgstr "Selectare"
+
+#: wp-optimize-settings.php:178 wp-optimize-settings.php:193
+msgid "Disable"
+msgstr "Dezactivare"
+
+#: wp-optimize-settings.php:179 wp-optimize-settings.php:194
+msgid "Enable"
+msgstr "Activare"
+
+#: wp-optimize-settings.php:184
+msgid "This will disable/enable Trackbacks on all your current and previously published posts"
+msgstr "Se vor dezactiva/activa trackback-urile pentru toate articolele tale publicate, actuale și anterioare"
+
+#: wp-optimize-settings.php:190
+msgid "Disable/Enable Comments"
+msgstr "Dezactivează/activează comentarii"
+
+#: wp-optimize-settings.php:199
+msgid "This will disable/enable Comments on all your current and previously published posts"
+msgstr "Se vor dezactiva/activa comentariile pentru toate articolele tale publicate, actuale și anterioare"
+
+#: wp-optimize-settings.php:210
+msgid "SAVE SETTINGS"
+msgstr "Salvare setări"
+
+#: wp-optimize-settings.php:220
+msgid "Auto Clean-up Settings"
+msgstr "Setări pentru auto-curățare"
+
+#: wp-optimize-settings.php:223
+msgid "Enable scheduled clean-up and optimization (Beta feature!)"
+msgstr "Activează curățarea și optimizarea programată (funcționalitate Beta!)"
+
+#: wp-optimize-settings.php:225
+msgid "Select schedule type (default is Weekly)"
+msgstr "Selectează tipul de programă (implicit este săptămânal)"
+
+#: wp-optimize-settings.php:232 wp-optimize-settings.php:254
+msgid "Everyday"
+msgstr "În fiecare zi"
+
+#: wp-optimize-settings.php:236 wp-optimize-settings.php:248
+#: wp-optimize-settings.php:255
+msgid "Every week"
+msgstr "În fiecare săptămână"
+
+#: wp-optimize-settings.php:240 wp-optimize-settings.php:256
+msgid "Every other week (every 14 days)"
+msgstr "În fiecare altă săptămână (la 14 zile)"
+
+#: wp-optimize-settings.php:244 wp-optimize-settings.php:257
+msgid "Every month (every 31 days)"
+msgstr "În fiecare lună (la 31 de zile)"
+
+#: wp-optimize-settings.php:261
+msgid "Automatic cleanup will perform the following:"
+msgstr "Curățarea automată va efectua următoarele:"
+
+#: wp-optimize-settings.php:263
+msgid "Remove revisions, auto drafts, posts/comments in trash, transient options. After that it will optimize the db."
+msgstr "Eliminarea reviziilor, a ciornelor automate, a articolelor/comentariilor din coșul de gunoi, a opțiunilor tranzitorii. După aceea, se va optimiza baza de date."
+
+#: wp-optimize-settings.php:270
+msgid "These options will only work if the automatic clean-up schedule has been enabled"
+msgstr "Aceste opțiuni vor funcționa numai dacă curățarea automată programată a fost activată"
+
+#: wp-optimize-settings.php:275
+msgid "Remove auto revisions"
+msgstr "Eliminare revizuiri automate"
+
+#: wp-optimize-settings.php:279
+msgid "Remove auto drafts"
+msgstr "Eliminare ciorne automate"
+
+#: wp-optimize-settings.php:283
+msgid "Remove spam comments"
+msgstr "Eliminare comentarii spam"
+
+#: wp-optimize-settings.php:296
+msgid "Remove orphaned post meta"
+msgstr "Eliminare meta articol sărac"
+
+#: wp-optimize-settings.php:300
+msgid "Remove unused tags"
+msgstr "Eliminare etichete nefolosite"
+
+#: wp-optimize-settings.php:306
+msgid "Optimize database"
+msgstr "Optimizare bază de date"
+
+#: wp-optimize-settings.php:312
+msgid "If you have InnoDB tables. They will not be optimized!"
+msgstr "Dacă ai tabele InnoDB. Ele nu vor fi optimizate!"
+
+#: wp-optimize-settings.php:321
+msgid "Enable email notification"
+msgstr "Activare notificare prin email"
+
+#: wp-optimize-settings.php:328
+msgid "Send email to"
+msgstr "Trimite email la"
+
+#: wp-optimize-settings.php:334
+msgid "SAVE AUTO CLEAN-UP SETTINGS"
+msgstr "Salvare setări auto-curățare"
+
+#: wp-optimize-tables.php:20
+msgid "Database Name:"
+msgstr "Nume bază de date:"
+
+#: wp-optimize-tables.php:28
+msgid "Optimized all the tables found in the database."
+msgstr "S-au optimizat toate tabelele găsite în baza de date."
+
+#: wp-optimize-tables.php:36
+msgid "No."
+msgstr "Nu."
+
+#: wp-optimize-tables.php:38
+msgid "Records"
+msgstr "Înregistrări"
+
+#: wp-optimize-tables.php:39
+msgid "Data Size"
+msgstr "Dimensiune date"
+
+#: wp-optimize-tables.php:40
+msgid "Index Size"
+msgstr "Dimensiune index"
+
+#: wp-optimize-tables.php:41
+msgid "Type"
+msgstr "Tip"
+
+#: wp-optimize-tables.php:42
+msgid "Overhead"
+msgstr "Deasupra"
+
+#: wp-optimize-tables.php:137
+msgid "Total:"
+msgstr "Total:"
+
+#: wp-optimize-tables.php:138
+msgid "%s Table"
+msgid_plural "%s Tables"
+msgstr[0] "%s tabel"
+msgstr[1] "%s tabele"
+msgstr[2] "%s de tabele"
+
+#: wp-optimize-tables.php:139
+msgid "%s Record"
+msgid_plural "%s Records"
+msgstr[0] "%s înregistrare"
+msgstr[1] "%s înregistrări"
+msgstr[2] "%s de înregistrări"
+
+#: wp-optimize-tables.php:179
+msgid "Total Size of Database"
+msgstr "Dimensiune totală bază de date"
+
+#: wp-optimize-tables.php:191
+msgid "Optimization Results"
+msgstr "Rezultatele optimizării"
+
+#: wp-optimize-tables.php:196
+msgid "Total Space Saved"
+msgstr "Spațiu total salvat"
+
+#: wp-optimize-tables.php:208
+msgid "Optimization Possibility"
+msgstr "Posibilitate de optimizare"
+
+#: wp-optimize-tables.php:215
+msgid "Total space can be saved"
+msgstr "Spațiul total care poate fi salvat"
+
+#. Plugin Name of the plugin/theme
+msgid "WP-Optimize"
+msgstr "WP-Optimize"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wp-optimize.ruhanirabin.com/"
+msgstr "http://wp-optimize.ruhanirabin.com/"
+
+#. Description of the plugin/theme
+msgid "This plugin helps you to keep your database clean by removing post revisions and spams in a blaze. Additionally it allows you to run optimize command on your WordPress core tables (use with caution)."
+msgstr "Acest modul te ajută să-ți păstrezi baza de date curată prin eliminarea reviziilor articolului și a spam-urilor. În plus, îți permite să rulezi comenzi optimizate în tabelele de bază WordPress (folosește cu precauție)."
+
+#. Author of the plugin/theme
+msgid "Ruhani Rabin"
+msgstr "Ruhani Rabin"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/ruhanirabin/WP-Optimize"
+msgstr "https://github.com/ruhanirabin/WP-Optimize"
