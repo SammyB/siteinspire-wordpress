@@ -1,0 +1,733 @@
+# Translation of Plugins - Translate Wordpress with GTranslate - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Translate Wordpress with GTranslate - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-13 01:32:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Translate Wordpress with GTranslate - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Edvard Ananyan"
+msgstr "Эдвард Ананян"
+
+#. Description of the plugin/theme
+msgid "Makes your website <strong>multilingual</strong> and available to the world using Google Translate. For support visit <a href=\"https://wordpress.org/support/plugin/gtranslate\">GTranslate Support</a>."
+msgstr "Делает Ваш сайт <strong>многоязычным</strong> и доступны всему миру с помощью Google Переводчика. Для получения поддержки обратитесь на <a href=\"https://wordpress.org/support/plugin/gtranslate\">Форум Поддержки GTranslate</a>."
+
+#. Plugin Name of the plugin/theme
+msgid "GTranslate"
+msgstr "GTranslate"
+
+#: gtranslate.php:1356
+msgid "Support Forum"
+msgstr "Форум Поддержки"
+
+#: gtranslate.php:1355
+msgid "Live Chat"
+msgstr "Онлайн Чат"
+
+#: gtranslate.php:1354
+msgid "You can use our <b>Live Chat</b> or <b>Support Forum</b> if you have any questions."
+msgstr "Вы можете использовать наш <b>Онлайн Чат</b> или <b>Форум Поддержки</b>, если у вас есть какие-либо вопросы."
+
+#: gtranslate.php:1344
+msgid "You can <b>edit translations</b> by upgrading your GTranslate."
+msgstr "Вы можете <b>редактировать переводы</b> путем апгрейда GTranslate."
+
+#: gtranslate.php:1334
+msgid "You can <b>increase</b> your <b>AdSense revenue</b> by upgrading your GTranslate."
+msgstr "Вы можете <b>увеличить</b> ваш <b>доход AdSense</b> путем апгрейда GTranslate."
+
+#: gtranslate.php:1324
+msgid "You can have your <b>translated pages indexed</b> in search engines by upgrading your GTranslate."
+msgstr "Вы можете воспользоваться опцией <b>индексирования переведенных страниц</b> в поисковых системах путем апгрейда GTranslate."
+
+#: gtranslate.php:1315 gtranslate.php:1325 gtranslate.php:1335
+#: gtranslate.php:1345
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: gtranslate.php:1314
+msgid "You can <b>increase</b> your international <b>traffic</b> by upgrading your GTranslate."
+msgstr "Вы можете <b>увеличить</b> ваш международный <b>трафик</b> путем апгрейда GTranslate."
+
+#: gtranslate.php:1313 gtranslate.php:1323 gtranslate.php:1333
+#: gtranslate.php:1343 gtranslate.php:1353
+msgid "Did you know?"
+msgstr "Знаете ли Вы?"
+
+#: gtranslate.php:1299 gtranslate.php:1316 gtranslate.php:1326
+#: gtranslate.php:1336 gtranslate.php:1346 gtranslate.php:1357
+msgid "Maybe later"
+msgstr "Может позже"
+
+#: gtranslate.php:1298
+msgid "I have already left a review"
+msgstr "Я уже оставил свой отзыв"
+
+#: gtranslate.php:1297
+msgid "Sure! I would love to!"
+msgstr "Конечно! Мне бы очень хотелось!"
+
+#: gtranslate.php:1296
+msgid "We hope you have enjoyed using GTranslate! Would you mind taking a few minutes to write a review on WordPress.org? <br>Just writing a simple <b>'thank you'</b> will make us happy!"
+msgstr "Мы надеемся, что вы пользовались помощью GTranslate с удовольствием! Вы не возражаете потратить несколько минут, чтобы написать отзыв на WordPress.org? <br>Просто простое <b> \"спасибо\"</b> сделает нас счастливыми!"
+
+#: gtranslate.php:1295
+msgid "Please Leave a Review"
+msgstr "Пожалуйста, оставьте отзыв"
+
+#: gtranslate.php:1287 gtranslate.php:1300 gtranslate.php:1317
+#: gtranslate.php:1327 gtranslate.php:1337 gtranslate.php:1347
+#: gtranslate.php:1358
+msgid "Never show again"
+msgstr "Никогда не показывать снова"
+
+#: gtranslate.php:1286
+msgid "Check videos"
+msgstr "Проверьте видео"
+
+#: gtranslate.php:1285
+msgid "Get help"
+msgstr "Получить помощь"
+
+#: gtranslate.php:1284
+msgid "Thank you for using GTranslate! We hope that you have found everything you need, but if you have any questions you can use our Live Chat or Forum:"
+msgstr "Благодарим Вас за использование GTranslate! Мы надеемся, что Вы нашли все, что нужно, но если у Вас есть какие-либо вопросы, Вы можете использовать наш Онлайн Чат или Форум:"
+
+#: gtranslate.php:1283
+msgid "Hey! How is it going?"
+msgstr "Привет! Как дела?"
+
+#: gtranslate.php:1055
+msgid "Changes Saved"
+msgstr "Изменения Сохранены"
+
+#: gtranslate.php:998
+msgid "Translation Delivery Network"
+msgstr "Сеть Доставки Переводов"
+
+#: gtranslate.php:990
+msgid "GTranslate Tour Video"
+msgstr "GTranslate Видео Тур"
+
+#: gtranslate.php:984
+msgid "More Info"
+msgstr "Больше Информации"
+
+#: gtranslate.php:981
+msgid "SSL support"
+msgstr "Поддержка SSL"
+
+#: gtranslate.php:980
+msgid "Seamless updates"
+msgstr "Беспрерывные обновления"
+
+#: gtranslate.php:979
+msgid "Language hosting"
+msgstr "Хостинг языков"
+
+#: gtranslate.php:978
+msgid "URL translation"
+msgstr "Перевод URL адресов"
+
+#: gtranslate.php:977
+msgid "Edit translations manually"
+msgstr "Редактирование переводов вручную"
+
+#: gtranslate.php:976
+msgid "Meta data translation"
+msgstr "Перевод мета данных"
+
+#: gtranslate.php:975
+msgid "Increase traffic and AdSense revenue"
+msgstr "Увеличте трафик и дохода от AdSense"
+
+#: gtranslate.php:974
+msgid "Search engine friendly (SEF) URLs"
+msgstr "Дружественных URL-адреса для поисковых систем"
+
+#: gtranslate.php:973
+msgid "Enable search engine indexing"
+msgstr "Включите индексирование поисковыми машинами"
+
+#: gtranslate.php:969
+msgid "Useful info"
+msgstr "Полезная информация"
+
+#: gtranslate.php:950
+msgid "Please write a review on"
+msgstr "Пожалуйста, напишите Ваше мнение на"
+
+#: gtranslate.php:948
+msgid "Do you like GTranslate?"
+msgstr "Нравится ли вам GTranslate?"
+
+#: gtranslate.php:939
+msgid "Widget preview"
+msgstr "Просмотр виджета"
+
+#: gtranslate.php:930
+msgid "Save Changes"
+msgstr "Сохранить Изменения"
+
+#: gtranslate.php:921
+msgid "You can edit this if you wish"
+msgstr "Вы можете редактировать это, если хотите"
+
+#: gtranslate.php:920
+msgid "DO NOT COPY THIS INTO YOUR POSTS OR PAGES! Use [GTranslate] shortcode inside the post/page <br />or add a GTranslate widget into your sidebar from Appearance -> Widgets instead."
+msgstr "НЕ КОПИРУЙТЕ ЭТО В СВОИ ПОСТЫ ИЛИ СТРАНИЦЫ! Используйте [GTranslate] шорткод внутри постов/страниц <br />или добавте GTranslate виджет в боковой панель из \"Внешний вид\" -> \"Виджеты\" вместо этого."
+
+#: gtranslate.php:918
+msgid "Widget code"
+msgstr "Код виджета"
+
+#: gtranslate.php:896
+msgid "Languages"
+msgstr "Языки"
+
+#: gtranslate.php:888
+msgid "Line break after flags"
+msgstr "Новая строка после флажков"
+
+#: gtranslate.php:884
+msgid "Mexico flag"
+msgstr "Флаг Мексики"
+
+#: gtranslate.php:883
+msgid "Brazil flag"
+msgstr "Флаг Бразилии"
+
+#: gtranslate.php:882
+msgid "USA flag"
+msgstr "Флаг США"
+
+#: gtranslate.php:881
+msgid "Alternative flags"
+msgstr "Альтернативные флаги"
+
+#: gtranslate.php:864 gtranslate.php:896
+msgid "Uncheck All"
+msgstr "Снять все"
+
+#: gtranslate.php:864 gtranslate.php:896
+msgid "Check All"
+msgstr "Отметить все"
+
+#: gtranslate.php:864
+msgid "Flag languages"
+msgstr "Языки с флагами"
+
+#: gtranslate.php:854
+msgid "Flag size"
+msgstr "Размер флага"
+
+#: gtranslate.php:845
+msgid "Show in primary menu"
+msgstr "Показать в главном меню"
+
+#: gtranslate.php:841
+msgid "Open in new window"
+msgstr "Открывать в новом окне"
+
+#: gtranslate.php:837
+msgid "Sub-domain URL structure"
+msgstr "Структура URL - под-домены"
+
+#: gtranslate.php:834 gtranslate.php:838
+msgid "paid plans only"
+msgstr "только платные планы"
+
+#: gtranslate.php:833
+msgid "Sub-directory URL structure"
+msgstr "Структура URL - под-каталоги"
+
+#: gtranslate.php:829
+msgid "Analytics"
+msgstr "Аналитика"
+
+#: gtranslate.php:824
+msgid "Zulu"
+msgstr "Зулусский"
+
+#: gtranslate.php:823
+msgid "Yoruba"
+msgstr "Йоруба"
+
+#: gtranslate.php:822
+msgid "Yiddish"
+msgstr "Идиш"
+
+#: gtranslate.php:821
+msgid "Xhosa"
+msgstr "Коса"
+
+#: gtranslate.php:820
+msgid "Welsh"
+msgstr "Валлийский"
+
+#: gtranslate.php:819
+msgid "Vietnamese"
+msgstr "Вьетнамский"
+
+#: gtranslate.php:818
+msgid "Uzbek"
+msgstr "Узбекский"
+
+#: gtranslate.php:817
+msgid "Urdu"
+msgstr "Урду"
+
+#: gtranslate.php:816
+msgid "Ukrainian"
+msgstr "Украинский"
+
+#: gtranslate.php:815
+msgid "Turkish"
+msgstr "Турецкий"
+
+#: gtranslate.php:814
+msgid "Thai"
+msgstr "Тайский"
+
+#: gtranslate.php:813
+msgid "Telugu"
+msgstr "Телугу"
+
+#: gtranslate.php:812
+msgid "Tamil"
+msgstr "Тамильский"
+
+#: gtranslate.php:811
+msgid "Tajik"
+msgstr "Таджикский"
+
+#: gtranslate.php:810
+msgid "Swedish"
+msgstr "Шведский"
+
+#: gtranslate.php:809
+msgid "Swahili"
+msgstr "Суахили"
+
+#: gtranslate.php:808
+msgid "Sudanese"
+msgstr "Суданский"
+
+#: gtranslate.php:807
+msgid "Spanish"
+msgstr "Испанский"
+
+#: gtranslate.php:806
+msgid "Somali"
+msgstr "Сомалийский"
+
+#: gtranslate.php:805
+msgid "Slovenian"
+msgstr "Словенский"
+
+#: gtranslate.php:804
+msgid "Slovak"
+msgstr "Словацкий"
+
+#: gtranslate.php:803
+msgid "Sinhala"
+msgstr "Сингальский"
+
+#: gtranslate.php:802
+msgid "Sindhi"
+msgstr "Синдхи"
+
+#: gtranslate.php:801
+msgid "Shona"
+msgstr "Шона"
+
+#: gtranslate.php:800
+msgid "Sesotho"
+msgstr "Сесото"
+
+#: gtranslate.php:799
+msgid "Serbian"
+msgstr "Сербский"
+
+#: gtranslate.php:798
+msgid "Scottish Gaelic"
+msgstr "Гэльский (Шотландский)"
+
+#: gtranslate.php:797
+msgid "Samoan"
+msgstr "Самоанский"
+
+#: gtranslate.php:796
+msgid "Russian"
+msgstr "Русский"
+
+#: gtranslate.php:795
+msgid "Romanian"
+msgstr "Румынский"
+
+#: gtranslate.php:794
+msgid "Punjabi"
+msgstr "Панджабский"
+
+#: gtranslate.php:793
+msgid "Portuguese"
+msgstr "Португальский"
+
+#: gtranslate.php:792
+msgid "Polish"
+msgstr "Польский"
+
+#: gtranslate.php:791
+msgid "Persian"
+msgstr "Персицкий"
+
+#: gtranslate.php:790
+msgid "Pashto"
+msgstr "Пушту"
+
+#: gtranslate.php:789
+msgid "Norwegian"
+msgstr "Норвежский"
+
+#: gtranslate.php:788
+msgid "Nepali"
+msgstr "Непальский"
+
+#: gtranslate.php:787
+msgid "Myanmar (Burmese)"
+msgstr "Мьянма (Бирманский)"
+
+#: gtranslate.php:786
+msgid "Mongolian"
+msgstr "Монгольский"
+
+#: gtranslate.php:785
+msgid "Marathi"
+msgstr "Маратхи"
+
+#: gtranslate.php:784
+msgid "Maori"
+msgstr "Маори"
+
+#: gtranslate.php:783
+msgid "Maltese"
+msgstr "Мальтийский"
+
+#: gtranslate.php:782
+msgid "Malayalam"
+msgstr "Малайялам"
+
+#: gtranslate.php:781
+msgid "Malay"
+msgstr "Малайский"
+
+#: gtranslate.php:780
+msgid "Malagasy"
+msgstr "Малагасийский"
+
+#: gtranslate.php:779
+msgid "Macedonian"
+msgstr "Македонский"
+
+#: gtranslate.php:778
+msgid "Luxembourgish"
+msgstr "Люксембургский"
+
+#: gtranslate.php:777
+msgid "Lithuanian"
+msgstr "Литовский"
+
+#: gtranslate.php:776
+msgid "Latvian"
+msgstr "Латышский"
+
+#: gtranslate.php:775
+msgid "Latin"
+msgstr "Латинский"
+
+#: gtranslate.php:774
+msgid "Lao"
+msgstr "Лао"
+
+#: gtranslate.php:773
+msgid "Kyrgyz"
+msgstr "Киргизский"
+
+#: gtranslate.php:772
+msgid "Kurdish (Kurmanji)"
+msgstr "Курдский (курманджи)"
+
+#: gtranslate.php:771
+msgid "Korean"
+msgstr "Корейский"
+
+#: gtranslate.php:770
+msgid "Khmer"
+msgstr "Кхмерский"
+
+#: gtranslate.php:769
+msgid "Kazakh"
+msgstr "Казахский"
+
+#: gtranslate.php:768
+msgid "Kannada"
+msgstr "Каннада"
+
+#: gtranslate.php:767
+msgid "Javanese"
+msgstr "Яванский"
+
+#: gtranslate.php:766
+msgid "Japanese"
+msgstr "Японский"
+
+#: gtranslate.php:765
+msgid "Italian"
+msgstr "Итальянский"
+
+#: gtranslate.php:764
+msgid "Irish"
+msgstr "Ирландский"
+
+#: gtranslate.php:763
+msgid "Indonesian"
+msgstr "Индонезийский"
+
+#: gtranslate.php:762
+msgid "Igbo"
+msgstr "Игбо"
+
+#: gtranslate.php:761
+msgid "Icelandic"
+msgstr "Исландский"
+
+#: gtranslate.php:760
+msgid "Hungarian"
+msgstr "Венгерский"
+
+#: gtranslate.php:759
+msgid "Hmong"
+msgstr "Хмонг"
+
+#: gtranslate.php:758
+msgid "Hindi"
+msgstr "Хинди"
+
+#: gtranslate.php:757
+msgid "Hebrew"
+msgstr "Иврит"
+
+#: gtranslate.php:756
+msgid "Hawaiian"
+msgstr "Гавайский"
+
+#: gtranslate.php:755
+msgid "Hausa"
+msgstr "Хауса"
+
+#: gtranslate.php:754
+msgid "Haitian Creole"
+msgstr "Гаитянский Креольский"
+
+#: gtranslate.php:753
+msgid "Gujarati"
+msgstr "Гуджарати"
+
+#: gtranslate.php:752
+msgid "Greek"
+msgstr "Греческий"
+
+#: gtranslate.php:751
+msgid "German"
+msgstr "Немецкий"
+
+#: gtranslate.php:750
+msgid "Georgian"
+msgstr "Грузинский"
+
+#: gtranslate.php:749
+msgid "Galician"
+msgstr "Галисиский"
+
+#: gtranslate.php:748
+msgid "Frisian"
+msgstr "Фризский"
+
+#: gtranslate.php:747
+msgid "French"
+msgstr "Французский"
+
+#: gtranslate.php:746
+msgid "Finnish"
+msgstr "Финский"
+
+#: gtranslate.php:745
+msgid "Filipino"
+msgstr "Филиппинский"
+
+#: gtranslate.php:744
+msgid "Estonian"
+msgstr "Эстонский"
+
+#: gtranslate.php:743
+msgid "Esperanto"
+msgstr "Эсперанто"
+
+#: gtranslate.php:742
+msgid "English"
+msgstr "Английский"
+
+#: gtranslate.php:741
+msgid "Dutch"
+msgstr "Голландский"
+
+#: gtranslate.php:740
+msgid "Danish"
+msgstr "Датский"
+
+#: gtranslate.php:739
+msgid "Czech"
+msgstr "Чешский"
+
+#: gtranslate.php:738
+msgid "Croatian"
+msgstr "Хорватский"
+
+#: gtranslate.php:737
+msgid "Corsican"
+msgstr "Корсиканский"
+
+#: gtranslate.php:736
+msgid "Chinese (Traditional)"
+msgstr "Китайский (традиционный)"
+
+#: gtranslate.php:735
+msgid "Chinese (Simplified)"
+msgstr "Китайский (упрощенный)"
+
+#: gtranslate.php:734
+msgid "Chichewa"
+msgstr "Чичева"
+
+#: gtranslate.php:733
+msgid "Cebuano"
+msgstr "Кебуано"
+
+#: gtranslate.php:732
+msgid "Catalan"
+msgstr "Каталонский"
+
+#: gtranslate.php:731
+msgid "Bulgarian"
+msgstr "Болгарский"
+
+#: gtranslate.php:730
+msgid "Bosnian"
+msgstr "Боснийский"
+
+#: gtranslate.php:729
+msgid "Bengali"
+msgstr "Бенгальский"
+
+#: gtranslate.php:728
+msgid "Belarusian"
+msgstr "Белорусский"
+
+#: gtranslate.php:727
+msgid "Basque"
+msgstr "Баскский"
+
+#: gtranslate.php:726
+msgid "Azerbaijani"
+msgstr "Азербайджанский"
+
+#: gtranslate.php:725
+msgid "Armenian"
+msgstr "Армянский"
+
+#: gtranslate.php:724
+msgid "Arabic"
+msgstr "Арабский"
+
+#: gtranslate.php:723
+msgid "Amharic"
+msgstr "Амхарский"
+
+#: gtranslate.php:722
+msgid "Albanian"
+msgstr "Албанский"
+
+#: gtranslate.php:721
+msgid "Afrikaans"
+msgstr "Африкаанс"
+
+#: gtranslate.php:718
+msgid "Translate from"
+msgstr "Перевести из"
+
+#: gtranslate.php:713
+msgid "Globe"
+msgstr "Глобус"
+
+#: gtranslate.php:712
+msgid "Flags"
+msgstr "Флаги"
+
+#: gtranslate.php:711
+msgid "Dropdown"
+msgstr "Выпадающее окно"
+
+#: gtranslate.php:710
+msgid "Nice dropdown with flags"
+msgstr "Приятное выпадающее окно с флагами"
+
+#: gtranslate.php:709
+msgid "Flags and dropdown"
+msgstr "Флаги и выпадающее окно"
+
+#: gtranslate.php:706
+msgid "Widget look"
+msgstr "Вид виджета"
+
+#: gtranslate.php:692
+msgid "Widget options"
+msgstr "Опции виджета"
+
+#: gtranslate.php:166
+msgid "GTranslate - your window to the world"
+msgstr "GTranslate - окно в мир"
+
+#: gtranslate.php:159
+msgid "GTranslate Options"
+msgstr "Опции GTranslate"
+
+#: gtranslate.php:154
+msgid "Google Automatic Translations"
+msgstr "Автоматические Переводы Google"
+
+#: gtranslate.php:110 gtranslate.php:128 gtranslate.php:144
+msgid "<b>Notice:</b> Please configure GTranslate from WP-Admin -> Settings -> GTranslate to see it in action."
+msgstr "<b>Примечание:</b> Пожалуйста, настройте GTranslate  на WP-Admin -> Настройки -> GTranslate, чтобы увидеть его в действии."
+
+#: gtranslate.php:83
+msgid "Please go to Settings -> GTranslate for configuration."
+msgstr "Пожалуйста, перейдите в раздел Настройки -> GTranslate для конфигурации."
+
+#: gtranslate.php:82
+msgid "Title"
+msgstr "Заглавие"
+
+#: gtranslate.php:75
+msgid "Settings"
+msgstr "Настройки"
+
+#: gtranslate.php:62
+msgid "Website Translator"
+msgstr "Переводчик Сайтов"

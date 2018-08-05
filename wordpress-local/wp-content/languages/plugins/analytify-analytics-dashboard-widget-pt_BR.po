@@ -1,0 +1,112 @@
+# Translation of Plugins - Google Analytics Dashboard Widget by Analytify - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Google Analytics Dashboard Widget by Analytify - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-12-20 19:11:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Google Analytics Dashboard Widget by Analytify - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://analytify.io/"
+msgstr "https://analytify.io/"
+
+#. Author of the plugin/theme
+msgid "Analytify"
+msgstr "Analytify"
+
+#. Description of the plugin/theme
+msgid "It is a Free Add-on for Analytify plugin to show Google Analytics widget at WordPress dashboard. This is developed on the requests of our users."
+msgstr "É um complemento gratuito do plugin Analytify para mostrar um widget do Google Analytics no painel do WordPress. Foi desenvolvido por solicitação de nossos usuários."
+
+#. Plugin URI of the plugin/theme
+msgid "https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/"
+msgstr "https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/"
+
+#. Plugin Name of the plugin/theme
+msgid "Analytify - Gooogle Analytics Dashboard widget"
+msgstr "Analytify - Gooogle Analytics Dashboard widget"
+
+#: wp-analytify-dashboard.php:80
+msgid "Click here to activate Analytify Core plugin."
+msgstr "Clique aqui para ativar o plugin Analytify básico."
+
+#: wp-analytify-dashboard.php:64
+msgid "Click here to Install Analytify(Core)"
+msgstr "Clique aqui para instalar o Analytify (Básico)"
+
+#: wp-analytify-dashboard.php:64 wp-analytify-dashboard.php:80
+msgid "Google Analytics by Analytify is required to run Google Analytics dashboard widget."
+msgstr "O Google Analytics por Analytify é necessário para executar o Google Analytics Dashboard Widget"
+
+#: views/admin/top-socialmedia-stats.php:8
+msgid "Top social media by views."
+msgstr "Principais redes sociais por visualizações"
+
+#: views/admin/top-reffers-stats.php:8
+msgid "Top reffers by views."
+msgstr "Principais indicações por visualizações "
+
+#: views/admin/top-keywords-stats.php:8
+msgid "Top keywords by views."
+msgstr "Principais palavras-chave por visualizações"
+
+#: views/admin/top-countries-stats.php:15
+msgid "Countries"
+msgstr "Países"
+
+#: views/admin/top-countries-stats.php:8
+msgid "Top countries by views."
+msgstr "Principais países por visualizações"
+
+#: views/admin/top-cities-stats.php:15
+msgid "Cities"
+msgstr "Cidades"
+
+#: views/admin/top-cities-stats.php:8
+msgid "Top cities by views."
+msgstr "Principais cidades por visualizações"
+
+#: views/admin/general-stats.php:72
+msgid "AVERAGE PAGES"
+msgstr "MÉDIA DE PÁGINAS"
+
+#: analytify-dashboard-addon.php:106
+msgid "Connect your Google account with Analytify"
+msgstr "Conecte sua conta Google com o Analytify"
+
+#: analytify-dashboard-addon.php:103
+msgid "Select the Profile"
+msgstr "Selecione o perfil"
+
+#: analytify-dashboard-addon.php:93
+msgid "Select a custom date"
+msgstr "Selecione uma data personalizada"
+
+#: analytify-dashboard-addon.php:73 views/admin/top-keywords-stats.php:15
+msgid "Keywords"
+msgstr "Palavras-chave"
+
+#: analytify-dashboard-addon.php:72
+msgid "Top Cities"
+msgstr "Principais cidades"
+
+#: analytify-dashboard-addon.php:71
+msgid "Top Countries"
+msgstr "Principais países"
+
+#: analytify-dashboard-addon.php:70
+msgid "Top pages"
+msgstr "Principais páginas"
+
+#: analytify-dashboard-addon.php:67
+msgid "View Stats"
+msgstr "Ver estatísticas"
+
+#: analytify-dashboard-addon.php:29 wp-analytify-dashboard.php:93
+msgid "Google Analytics Dashboard By Analytify"
+msgstr "Google Analytics Dashboard por Analytify"

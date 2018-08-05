@@ -1,0 +1,186 @@
+# Translation of Plugins - Disable Comments - Development (trunk) in German
+# This file is distributed under the same license as the Plugins - Disable Comments - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-24 10:35:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Disable Comments - Development (trunk)\n"
+
+#: disable-comments.php:388
+msgctxt "settings menu title"
+msgid "Disable Comments"
+msgstr "Disable Comments"
+
+#: includes/tools-page.php:102
+msgid "Total Comments:"
+msgstr "Kommentaranzahl:"
+
+#: includes/tools-page.php:97
+msgid "%s: Deleting comments will remove existing comment entries in the database and cannot be reverted without a database backup."
+msgstr "%s: Das Löschen von Kommentaren entfernt Kommentareinträge endgültig aus der Datenbank, was ohne Backup nicht rückgängig gemacht werden kann."
+
+#: includes/tools-page.php:88
+msgid "For certain post types"
+msgstr "Für bestimmte Inhaltstypen"
+
+#: includes/tools-page.php:86
+msgid "%s: This function and will affect your entire site. Use it only if you want to delete comments <em>everywhere</em>."
+msgstr "%s: Diese Funktion wird deine gesamte Website betreffen. Nutze sie nur, wenn du Kommentare <em>überall</em> löschen willst."
+
+#: includes/tools-page.php:85
+msgid "Delete all comments in WordPress."
+msgstr "Alle Kommentare in WordPress löschen."
+
+#: includes/tools-page.php:68
+msgid "Comment Deletion Complete"
+msgstr "Löschen der Kommentare abgeschlossen"
+
+#: includes/tools-page.php:62
+msgid "All comments have been deleted for %ss."
+msgstr "Alle Kommentare von %ss wurden gelöscht."
+
+#: includes/tools-page.php:40 includes/tools-page.php:43
+msgid "Internal error occured. Please try again later."
+msgstr "Ein interner Fehler ist aufgetreten. Bitte versuche es später erneut."
+
+#: includes/tools-page.php:38
+msgid "All comments have been deleted."
+msgstr "Alle Kommentare wurden gelöscht."
+
+#: includes/tools-page.php:13 includes/tools-page.php:75
+msgid "No comments available for deletion."
+msgstr "Keine Kommentare zum Löschen verfügbar."
+
+#: includes/settings-page.php:68 includes/tools-page.php:95
+msgid "Custom post types:"
+msgstr "Individuelle Inhaltstypen:"
+
+#: disable-comments.php:400 includes/tools-page.php:7
+#: includes/tools-page.php:103
+msgid "Delete Comments"
+msgstr "Kommentare löschen"
+
+#: disable-comments.php:380
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#. Author URI of the plugin/theme
+msgid "http://www.rayofsolaris.net/"
+msgstr "http://www.rayofsolaris.net/"
+
+#. Author of the plugin/theme
+msgid "Samir Shah"
+msgstr "Samir Shah"
+
+#. Description of the plugin/theme
+msgid "Allows administrators to globally disable comments on their site. Comments can be disabled according to post type."
+msgstr "Ermöglicht es Administratoren auf der Website Kommentare global zu deaktivieren. Kommentare können auch nur für bestimmte Inhaltstypen deaktiviert werden."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/disable-comments/"
+msgstr "https://de.wordpress.org/plugins/disable-comments/"
+
+#: includes/settings-page.php:110
+msgid "%s: Selecting this option will make persistent changes to your database. Are you sure you want to enable it?"
+msgstr "%s: Die Wahl dieser Option hat permanente Änderungen in der Datenbank zur Folge. Bist du sicher, dass du sie aktivieren willst?"
+
+#: includes/settings-page.php:89
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: includes/settings-page.php:82
+msgid "%s: Entering persistent mode on large multi-site networks requires a large number of database queries and can take a while. Use with caution!"
+msgstr "%s: Die Aktivierung des permanenten Modus hat auf großen Multi-Site-Netzwerken eine große Anzahl von Datenbankzugriffen zur Folge und kann einige Zeit in Anspruch nehmen. Bitte mit Vorsicht nutzen!"
+
+#: includes/settings-page.php:80
+msgid "%s: <strong>This will make persistent changes to your database &mdash; comments will remain closed even if you later disable the plugin!</strong> You should not use it if you only want to disable comments temporarily. Please <a href=\"%s\" target=\"_blank\">read the FAQ</a> before selecting this option."
+msgstr "%s: <strong>Dies wird bleibende Änderungen an deiner Datenbank vornehmen &mdash; auch nach der Deaktivierung des Plugins bleiben die Kommentare deaktiviert!</strong> Nutze diese Option nicht, wenn du die Kommentare nur temporär deaktivieren willst. Bitte <a href=\"%s\" target=\"_blank\">lies die FAQs</a> bevor du diese Option nutzt."
+
+#: includes/settings-page.php:79
+msgid "Use persistent mode"
+msgstr "Permanenten Modus verwenden"
+
+#: includes/settings-page.php:75
+msgid "Other options"
+msgstr "Weitere Optionen"
+
+#: includes/settings-page.php:70
+msgid "Disabling comments will also disable trackbacks and pingbacks. All comment-related fields will also be hidden from the edit/quick-edit screens of the affected posts. These settings cannot be overridden for individual posts."
+msgstr "Das Deaktivieren von Kommentaren deaktiviert auch Trackbacks und Pingbacks. Alle kommentarbezogenen Felder werden außerdem auf den Bearbeiten/QuickEdit-Seiten der Beiträge ausgeblendet. Diese Einstellungen können nicht für einzelne Beiträge überschrieben werden."
+
+#: includes/settings-page.php:67 includes/tools-page.php:94
+msgid "Only the built-in post types appear above. If you want to disable comments on other custom post types on the entire network, you can supply a comma-separated list of post types below (use the slug that identifies the post type)."
+msgstr "Nur die von WordPress mitgelieferten Inhaltstypen erscheinen oben. Wenn du Kommentare für andere individuelle Inhaltstypen im gesamten Netzwerk deaktivieren möchtest, kannst du eine durch Komma getrennte Liste der Inhaltstypen unten anfügen (verwende die Titelform des Inhaltstypen)."
+
+#: includes/settings-page.php:61
+msgid "On certain post types"
+msgstr "Für bestimmte Inhaltstypen"
+
+#: includes/settings-page.php:59 includes/settings-page.php:80
+#: includes/settings-page.php:82 includes/settings-page.php:110
+#: includes/tools-page.php:86 includes/tools-page.php:97
+msgid "Warning"
+msgstr "Warnung"
+
+#: includes/settings-page.php:59
+msgid "%s: This option is global and will affect your entire site. Use it only if you want to disable comments <em>everywhere</em>. A complete description of what this option does is <a href=\"%s\" target=\"_blank\">available here</a>."
+msgstr "%s: Diese Option ist global und beeinflusst die gesamte Seite. Nutze diese nur, wenn du Kommentare <em>überall</em> deaktivieren willst. Eine ausführliche Beschreibung dieser Option ist <a href=\"%s\" target=\"_blank\">hier verfügbar (EN)</a>."
+
+#: includes/settings-page.php:58
+msgid "Disable all comment-related controls and settings in WordPress."
+msgstr "Deaktiviere alle Kommentar-bezogenen Steuerungen und Einstellungen in WordPress."
+
+#: includes/settings-page.php:58 includes/tools-page.php:85
+msgid "Everywhere"
+msgstr "Überall"
+
+#: includes/settings-page.php:54
+msgid "It seems that a caching/performance plugin is active on this site. Please manually invalidate that plugin's cache after making any changes to the settings below."
+msgstr "Es scheint ein Caching/Performance-Plugin auf der Website aktiv zu sein. Bitte leere den Cache des Plugins nach der Änderung von Einstellungen auf dieser Seite."
+
+#: includes/settings-page.php:52
+msgid "<em>Disable Comments</em> is Network Activated. The settings below will affect <strong>all sites</strong> in this network."
+msgstr "<em>Disable Comments</em> ist für alle Seiten aktiviert. Die Einstellungen unten betreffen <strong>alle Seiten</strong> des Netzwerks."
+
+#: includes/settings-page.php:44
+msgid "Options updated. Changes to the Admin Menu and Admin Bar will not appear until you leave or reload this page."
+msgstr "Einstellungen aktualisiert. Veränderungen am Adminmenü und der Adminbar werden erst sichtbar, sobald Du die Seite verlässt oder neu lädst."
+
+#: includes/settings-page.php:43
+msgid "If a caching/performance plugin is active, please invalidate its cache to ensure that changes are reflected immediately."
+msgstr "Leere bitte den Webseiten-Cache, falls ein Caching- oder Performanceplugin aktiviert ist, damit die Änderungen gleich dargestellt werden."
+
+#. #-#-#-#-#  disable-comments-code.pot (Disable Comments 1.7.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/settings-page.php:49
+msgid "Disable Comments"
+msgstr "Disable Comments"
+
+#: disable-comments.php:379
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: disable-comments.php:317
+msgid "The <em>Disable Comments</em> plugin is active, but isn't configured to do anything yet. Visit the <a href=\"%s\">configuration page</a> to choose which post types to disable comments on."
+msgstr "Das Plugin <em>Disable Comments</em> ist aktiv, aber noch nicht konfiguriert. Rufe die <a href=\"%s\">Einstellungsseite</a> aus, um die Inhaltstypen auszuwählen, für die Kommentare deaktiviert werden sollen."
+
+#: disable-comments.php:289
+msgid ", "
+msgstr ", "
+
+#: disable-comments.php:289
+msgid "Note: The <em>Disable Comments</em> plugin is currently active, and comments are completely disabled on: %s. Many of the settings below will not be applicable for those post types."
+msgstr "Anmerkung: Das Plugin <em>Disable Comments</em> ist aktiv und Kommentare sind für %s deaktiviert. Viele der nachfolgenden Einstellungen lassen sich dadurch auf diese Inhaltstypen nicht anwenden."
+
+#: disable-comments.php:240 disable-comments.php:325
+msgid "Comments are closed."
+msgstr "Die Kommentare sind geschlossen."
+
+#: disable-comments.php:59
+msgid "Disable Comments requires WordPress version %s or greater."
+msgstr "Disable Comments benötigt WordPress Version %s oder höher."

@@ -1,0 +1,179 @@
+# Translation of Stable (latest release) in Hebrew
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-10 22:41:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: duplicate-post-admin.php:118 duplicate-post-admin.php:136
+#: duplicate-post-common.php:66 duplicate-post-common.php:70
+#: duplicate-post-common.php:103
+msgid "Copy to a new draft"
+msgstr "העתקה לטיוטה חדשה"
+
+#: duplicate-post-options.php:128
+msgid "Do not copy these fields"
+msgstr "אין להעתיק שדות אלו"
+
+#: duplicate-post-admin.php:349 duplicate-post-options.php:69
+msgid "Donate"
+msgstr "תרומה"
+
+#: duplicate-post-options.php:156
+msgid "Title prefix"
+msgstr "קידומת הכותרת"
+
+#: duplicate-post-admin.php:350 duplicate-post-options.php:68
+msgid "Translate"
+msgstr "תרגום"
+
+#: duplicate-post.php:44
+msgid "Settings"
+msgstr "הגדרות"
+
+#: duplicate-post-admin.php:116
+msgid "Clone"
+msgstr "שיכפול"
+
+#: duplicate-post-admin.php:115
+msgid "Clone this item"
+msgstr "שיכפול פריט"
+
+#: duplicate-post-admin.php:119
+msgid "New Draft"
+msgstr "טיוטה חדשה"
+
+#: duplicate-post-options.php:67
+msgid "Visit plugin site"
+msgstr "בקרו באתר התוסף"
+
+#: duplicate-post-options.php:84
+msgid "Copy post/page date also"
+msgstr "העתקת גם תאריך פוסט/עמוד"
+
+#: duplicate-post-options.php:101
+msgid "Copy excerpt"
+msgstr "העתקת תיאור"
+
+#. Plugin URI of the plugin/theme
+msgid "http://lopo.it/duplicate-post-plugin/"
+msgstr "http://lopo.it/duplicate-post-plugin/"
+
+#. Author URI of the plugin/theme
+msgid "http://lopo.it"
+msgstr "http://lopo.it"
+
+#. Author of the plugin/theme
+msgid "Enrico Battocchi"
+msgstr "אנריקו בטוחי"
+
+#. Description of the plugin/theme
+msgid "Clone posts and pages."
+msgstr "שיכפול פוסטים ועמודים."
+
+#: duplicate-post-options.php:202
+msgid "Admin bar"
+msgstr "בר ניהול"
+
+#: duplicate-post-options.php:199
+msgid "Edit screen"
+msgstr "מסך עריכה"
+
+#: duplicate-post-options.php:165
+msgid "Title suffix"
+msgstr "סיומת לכותרת"
+
+#: duplicate-post-options.php:169
+msgid "Suffix to be added after the original title, e.g. \"(dup)\" (blank for no suffix)"
+msgstr "הסיומת מתווספת אחרי הכותרת המקורית."
+
+#: duplicate-post-options.php:160
+msgid "Prefix to be added before the original title, e.g. \"Copy of\" (blank for no prefix)"
+msgstr "הקידומת מתווספת לפני הכותרת המקורית."
+
+#: duplicate-post-admin.php:185
+msgid "Copy creation failed, could not find original:"
+msgstr "יצירת העתק נכשל, לא ניתן למצוא את המקור:"
+
+#: duplicate-post-options.php:87
+msgid "Normally, the new copy has its publication date set to current time: check the box to copy the original post/page date"
+msgstr "בדרך כלל, בגרסה החדשה תאריך הפרסום מוגדר כתאריך הנוכחי: כדי להשתמש בתאריך פרסום מקורי סמנו את התיבה."
+
+#: duplicate-post-options.php:92
+msgid "Copy post/page status"
+msgstr "העתקת סטטוס פוסט/עמוד"
+
+#: duplicate-post-options.php:96
+msgid "Copy the original post status (draft, published, pending) when cloning from the post list."
+msgstr "העתקת הסטטוס המקורי (טיוטה, פורסם, ממתין לפרסום) כשמשכפלים מרשימת הפוסטים."
+
+#: duplicate-post-options.php:119
+msgid "Copy children"
+msgstr "העתק ילדים"
+
+#: duplicate-post-options.php:110
+msgid "Copy attachments"
+msgstr "העתק קבצים מצורפים"
+
+#: duplicate-post-options.php:105
+msgid "Copy the excerpt from the original post/page"
+msgstr "העתקת התיאור מהפוסט/העמוד המקורי"
+
+#: duplicate-post-options.php:114
+msgid "Copy the attachments from the original post/page"
+msgstr "העתקת קבצים מצורפים מהפוסט/העמוד המקורי"
+
+#: duplicate-post-options.php:123
+msgid "Copy the children from the original post/page"
+msgstr "העתקת ילדים מהפוסט/העמוד המקורי"
+
+#: duplicate-post-options.php:132
+msgid "Comma-separated list of meta fields that must not be copied"
+msgstr "שדות מיוחדים מופרדים בפסיקים שאין להעתיק"
+
+#: duplicate-post-options.php:137
+msgid "Do not copy these taxonomies"
+msgstr "אין להעתיק טקסונומיות אלה"
+
+#: duplicate-post-options.php:151
+msgid "Select the taxonomies you don't want to be copied"
+msgstr "טקסונומיות שאין להעתיק"
+
+#: duplicate-post-options.php:174
+msgid "Roles allowed to copy"
+msgstr "תפקידים שמותר להעתיק"
+
+#: duplicate-post-options.php:196
+msgid "Post list"
+msgstr "רשימת פוסטים"
+
+#: duplicate-post-options.php:187
+msgid "Warning: users will be able to copy all posts, even those of other users"
+msgstr "אזהרה: משתמשים יוכלו להעתיק את כל הפוסטים, גם של משתמשים אחרים"
+
+#: duplicate-post-options.php:192
+msgid "Show links in"
+msgstr "הצג קישורים ב"
+
+#: duplicate-post-options.php:208
+msgid "Save Changes"
+msgstr "שמירת שינויים"
+
+#. #-#-#-#-#  tmp-duplicate-post.pot (Duplicate Post 2.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: duplicate-post-options.php:28
+msgid "Duplicate Post"
+msgstr "שכפול הודעות"
+
+#: duplicate-post-options.php:28 duplicate-post-options.php:62
+msgid "Duplicate Post Options"
+msgstr "אפשרויות שכפול הודעות"
+
+#: duplicate-post-admin.php:163
+msgid "No post to duplicate has been supplied!"
+msgstr "לא סופקה הודעה לשכפול!"

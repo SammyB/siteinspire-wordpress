@@ -1,0 +1,121 @@
+# Translation of Plugins - Enable Media Replace - Development (trunk) in Romanian
+# This file is distributed under the same license as the Plugins - Enable Media Replace - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-05 20:33:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Enable Media Replace - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.mansjonasson.se"
+msgstr "http://www.mansjonasson.se"
+
+#. Author of the plugin/theme
+msgid "Måns Jonasson"
+msgstr "Måns Jonasson"
+
+#. Description of the plugin/theme
+msgid "Enable replacing media files by uploading a new file in the \"Edit Media\" section of the WordPress Media Library."
+msgstr "Activează înlocuirea fișierelor media prin încărcarea unui fișier nou în secțiunea \"Editează media\" din Biblioteca media WordPress."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.mansjonasson.se/enable-media-replace"
+msgstr "http://www.mansjonasson.se/enable-media-replace"
+
+#. Plugin Name of the plugin/theme
+msgid "Enable Media Replace"
+msgstr "Activează înlocuire media"
+
+#: upload.php:84
+msgid "File type does not meet security guidelines. Try another."
+msgstr "Tipul de fișier nu respectă regulile de securitate. Încearcă altul."
+
+#: upload.php:26
+msgid "The file %1$s can not be deleted by the web server, most likely because the permissions on the file are wrong."
+msgstr "Fișierul %1$s nu poate fi șters de către serverul web, cel mai probabil pentru că permisiunile fișierului sunt greșite."
+
+#: popup.php:68
+msgid "Cancel"
+msgstr "Anulează"
+
+#: popup.php:68
+msgid "Upload"
+msgstr "Încarcă"
+
+#: popup.php:63
+msgid "Please note that if you upload a new image, only embeds/links of the original size image will be replaced in your posts."
+msgstr "Te rog reține că, dacă încarci o imagine nouă, numai înglobările/legăturile imaginii de dimensiune originală vor fi înlocuite în articolele tale."
+
+#: popup.php:62
+msgid ") will be updated to point to the new file name."
+msgstr ") vor fi actualizate pentru a duce spre noul nume de fișier."
+
+#: popup.php:62
+msgid "Note: If you check this option, the name and type of the file you are about to upload will replace the old file. All links pointing to the current file ("
+msgstr "Notă: Dacă bifezi această opțiune, numele și tipul fișierului pe care urmează să-l încarci va înlocui fișierul vechi. Toate legăturile către fișierul actual ("
+
+#: popup.php:61
+msgid "Replace the file, use new file name and update all links"
+msgstr "Înlocuiește fișierul, folosește noul nume de fișier și actualizează toate legăturile"
+
+#: popup.php:58
+msgid ") no matter what the file you upload is called."
+msgstr ") indiferent de numele fișierului pe care îl încarci."
+
+#: popup.php:58
+msgid ") as the one you are replacing. The name of the attachment will stay the same ("
+msgstr ") ca cel pe care îl înlocuiești. Numele atașamentului va rămâne aceeași ("
+
+#: popup.php:58
+msgid "Note: This option requires you to upload a file of the same type ("
+msgstr "Notă: Această opțiune necesită să încarci un fișier de același tip ("
+
+#: popup.php:57
+msgid "Just replace the file"
+msgstr "Doar înlocuiește fișierul"
+
+#: popup.php:55
+msgid "Select media replacement type:"
+msgstr "Selectează tipul de înlocuire media:"
+
+#: popup.php:48
+msgid "Choose a file to upload from your computer"
+msgstr "Alegeți un fișier de încărcat de pe computer tău"
+
+#: popup.php:46
+msgid "There is no undo. Think about it!"
+msgstr "Nu există nicio revenire. Gândește-te la asta!"
+
+#: popup.php:46
+msgid "NOTE: You are about to replace the media file"
+msgstr "NOTĂ: Ești pe cale să înlocuiești fișierul media"
+
+#: popup.php:30
+msgid "Replace Media Upload"
+msgstr "Înlocuiește încărcare media"
+
+#: popup.php:14 upload.php:3
+msgid "You do not have permission to upload files."
+msgstr "Nu ai dreptul de a încărca fișiere."
+
+#: enable-media-replace.php:148
+msgid "Revised"
+msgstr "Revizuit"
+
+#: enable-media-replace.php:66
+msgid "To replace the current file, click the link and upload a replacement."
+msgstr "Pentru a înlocui fișierul actual, dă clic pe legătură și încarcă un înlocuitor."
+
+#: enable-media-replace.php:66
+msgid "Upload a new file"
+msgstr "Încarcă un fișier nou"
+
+#: enable-media-replace.php:40 enable-media-replace.php:66
+#: enable-media-replace.php:107
+msgid "Replace media"
+msgstr "Înlocuiește media"

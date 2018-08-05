@@ -1,0 +1,631 @@
+# Translation of Plugins - Contact Form &amp; SMTP Plugin for WordPress by PirateForms - Development (trunk) in Romanian
+# This file is distributed under the same license as the Plugins - Contact Form &amp; SMTP Plugin for WordPress by PirateForms - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-05 13:42:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Contact Form &amp; SMTP Plugin for WordPress by PirateForms - Development (trunk)\n"
+
+#: admin/class-pirateforms-admin.php:642
+msgid "You can use the next magic tags:"
+msgstr "Poți folosi următoarele etichete magice:"
+
+#: admin/class-pirateforms-admin.php:641
+msgid "Email content"
+msgstr "Conținut email"
+
+#: public/class-pirateforms-public.php:900
+msgid "Incorrect CAPTCHA"
+msgstr "CAPTCHA incorect"
+
+#: public/class-pirateforms-public.php:888
+msgid "Invalid CAPTCHA"
+msgstr "CAPTCHA invalid"
+
+#: admin/class-pirateforms-admin.php:76
+msgid "Please specify the Site Key and Secret Key."
+msgstr "Te rog specifică cheia sitului și cheia secretă."
+
+#: public/class-pirateforms-public.php:1039
+msgid "Uploaded file type is not allowed for %s"
+msgstr "Tipul de fișier încărcat nu este permis pentru %s"
+
+#: public/class-pirateforms-public.php:143
+msgid "I'm human!"
+msgstr "Sunt om!"
+
+#: admin/class-pirateforms-admin.php:531
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: admin/class-pirateforms-admin.php:530
+msgid "Custom"
+msgstr "Personalizat"
+
+#: public/class-pirateforms-public.php:909
+msgid "Submission blocked!"
+msgstr "Trimitere blocată!"
+
+#: includes/class-pirateforms-util.php:258
+#: includes/class-pirateforms-util.php:299
+#: public/class-pirateforms-public.php:627
+#: public/class-pirateforms-public.php:630
+msgid "Came from"
+msgstr "Vine de la"
+
+#: includes/class-pirateforms-html.php:195
+msgid "Upload file"
+msgstr "Încarcă fișier"
+
+#: admin/class-pirateforms-admin.php:520
+msgid "Add a spam trap"
+msgstr "Adaugă o capcană de spam"
+
+#: admin/class-pirateforms-admin.php:400
+msgid "Checking this option will verify the content of the message with Akismet to check if it's spam. If it is determined to be spam, the message will be blocked. %s"
+msgstr "Bifarea acestei opțiuni va verifica conținutul mesajului cu Akismet pentru a verifica dacă el este spam. Dacă este considerat spam, mesajul va fi blocat. %s"
+
+#: admin/class-pirateforms-admin.php:397
+msgid "Integrate with Akismet?"
+msgstr "Integrezi cu Akismet?"
+
+#: admin/class-pirateforms-admin.php:250
+msgid "To use this option, please ensure Akismet is activated with a valid key."
+msgstr "Pentru a folosi acestă opțiune, te rog asigură-te că Akismet este activat cu o cheie validă."
+
+#: includes/class-pirateforms.php:256
+msgid "No entries found."
+msgstr "Nicio intrare găsită."
+
+#: includes/class-pirateforms.php:255
+msgid "Parent Entries:"
+msgstr "Intrări părinte:"
+
+#: includes/class-pirateforms.php:254
+msgid "Search Entries"
+msgstr "Caută intrări"
+
+#: includes/class-pirateforms.php:253
+msgid "All Entries"
+msgstr "Toate intrările"
+
+#: includes/class-pirateforms.php:252
+msgid "View Entry"
+msgstr "Vezi intrarea"
+
+#: includes/class-pirateforms.php:251
+msgid "Edit Entry"
+msgstr "Editează intrarea"
+
+#: includes/class-pirateforms.php:249
+msgctxt "admin menu"
+msgid "Entries"
+msgstr "Intrări"
+
+#: includes/class-pirateforms-widget.php:112
+msgid "Need more forms ? Check our <a href=\"%s\" target=\"_blank\">extended</a> version for more features"
+msgstr "Ai nevoie de mai multe formulare? Consultă versiunea noastră <a href=\"%s\" target=\"_blank\">extinsă</a> pentru mai multe funcționalități"
+
+#: admin/partials/pirateforms-settings-display.php:138
+msgid "Send Test Email"
+msgstr "Trimite email de testare"
+
+#: admin/partials/pirateforms-settings-display.php:71
+msgid "If you are using the default (non-SMTP) configuration which uses the WP/PHP mail, mails might either land in the spam/junk folders or they might get lost. So, you might not receive the email even if the status against an entry reads the mail has been sent successfully. If you face this, please contact your system administrator. If you continue to face this problem, you can switch to the SMTP configuration to ensure email deliverability."
+msgstr "Dacă utilizezi configurația implicită (non-SMTP) care folosește poșta WP/PHP, mesajele ar putea fie să aterizeze în dosarele spam/junk ori fie s-ar putea pierde. Prin urmare, s-ar putea să nu primești emailul chiar dacă starea dintr-o intrare citește că emailul a fost trimis cu succes. Dacă întâmpini această problemă, te rog contactează administratorul de sistem. Dacă continui să ai această problemă, poți comuta la configurația SMTP pentru a asigura livrarea emailurilor."
+
+#: admin/class-pirateforms-admin.php:1037
+msgid "Sent email failed!"
+msgstr "Trimiterea emailului a eșuat!"
+
+#: admin/class-pirateforms-admin.php:1037
+msgid "Sent email successfully!"
+msgstr "Email trimis cu succes!"
+
+#: admin/class-pirateforms-admin.php:964
+msgid "Mail Status"
+msgstr "Stare corespondență"
+
+#: admin/class-pirateforms-admin.php:154
+msgid "More Features"
+msgstr "Mai multe funcționalități"
+
+#: admin/class-pirateforms-admin.php:987
+msgid "Status not captured"
+msgstr "Stare necapturată"
+
+#: admin/class-pirateforms-admin.php:987
+msgid "Mail sending failed!"
+msgstr "Trimiterea corespondenței a eșuat!"
+
+#: admin/class-pirateforms-admin.php:987
+msgid "Mail sent successfully!"
+msgstr "Corespondență trimisă cu succes!"
+
+#: admin/class-pirateforms-admin.php:435 admin/class-pirateforms-admin.php:454
+#: admin/class-pirateforms-admin.php:473 admin/class-pirateforms-admin.php:492
+#: admin/class-pirateforms-admin.php:510
+msgid "Do not display"
+msgstr "Nu afișa"
+
+#: admin/class-pirateforms-admin.php:379
+msgid "Success Page"
+msgstr "Pagină succes"
+
+#: admin/class-pirateforms-admin.php:436 admin/class-pirateforms-admin.php:455
+#: admin/class-pirateforms-admin.php:474 admin/class-pirateforms-admin.php:493
+#: admin/class-pirateforms-admin.php:511
+msgid "Display but not required"
+msgstr "Afișează, dar nu este obligatoriu"
+
+#: admin/partials/pirateforms-settings-sidebar-subscribe.php:18
+#: admin/partials/pirateforms-settings-sidebar-subscribe.php:19
+msgid "View more features"
+msgstr "Vezi mai multe funcționalități"
+
+#: admin/partials/pirateforms-settings-sidebar-subscribe.php:5
+msgid "Extend to FULL version"
+msgstr "Extinde la versiunea completă"
+
+#: admin/class-pirateforms-admin.php:382
+msgid "Select the page that displays after a successful form submission. The page will be displayed without pausing on the email form, so please be sure to configure a relevant thank you message in this page."
+msgstr "Selectează pagina care se afișează după trimiterea cu succes a unui formular. Pagina va fi afișată fără o pauză în formularul de email, deci asigură-te că ai configurat un mesaj de mulțumire relevant în această pagină."
+
+#: admin/class-pirateforms-admin.php:265
+msgid "Contact notification email address"
+msgstr "Adresă email de notificare contact"
+
+#: admin/class-pirateforms-admin.php:268
+msgid "The notification email will be sent from this address both to the recipients below and the contact form submitter (if this is activated below in email confirmation, in which case the domain for this email address should match your site's domain)."
+msgstr "Emailul de notificare va fi trimis de la această adresă atât destinatarilor de mai jos cât și celui care a trimis formularul de contact (dacă acest lucru este activat mai jos în confirmarea emailului, caz în care domeniul pentru această adresă de email ar trebuie să se potrivească cu domeniului sitului tău)."
+
+#: admin/class-pirateforms-admin.php:502
+#: public/class-pirateforms-public.php:1077
+msgid "Attachment"
+msgstr "Atașament"
+
+#: admin/class-pirateforms-admin.php:720
+msgid "Please add an attachment"
+msgstr "Te rog adaugă un atașament"
+
+#: public/class-pirateforms-public.php:401
+msgid "Submit"
+msgstr "Trimite"
+
+#: admin/class-pirateforms-admin.php:316 admin/class-pirateforms-admin.php:335
+#: admin/class-pirateforms-admin.php:373 admin/class-pirateforms-admin.php:410
+#: admin/class-pirateforms-admin.php:768 admin/class-pirateforms-admin.php:811
+msgid "Yes"
+msgstr "Da"
+
+#: admin/class-pirateforms-admin.php:718
+msgid "Attachment is missing"
+msgstr "Atașamentul lipsește"
+
+#: admin/class-pirateforms-admin.php:832
+msgid "TLS"
+msgstr "TLS"
+
+#: admin/class-pirateforms-admin.php:831
+msgid "SSL"
+msgstr "SSL"
+
+#: admin/class-pirateforms-admin.php:529 admin/class-pirateforms-admin.php:830
+msgid "No"
+msgstr "Nu"
+
+#: admin/class-pirateforms-admin.php:817
+msgid "Security?"
+msgstr "Securitate?"
+
+#: admin/class-pirateforms-admin.php:344
+msgid "Adding text here will send an email to the form submitter. The email uses the \"Successful form submission text\" field from the \"Alert Messages\" tab as the subject line. Plain text only here, no HTML."
+msgstr "Adăugarea de text aici va trimite un email către trimițătorul formularului. Emailul folosește câmpul \"Textul de succes la trimitere\" din fila \"Mesaje de alertă\" ca linie de subiect. Aici doar text simplu, fără HTML."
+
+#: admin/class-pirateforms-admin.php:325
+msgid "Should the form use a WordPress nonce? This helps reduce spam by ensuring that the form submittor is on the site when submitting the form rather than submitting remotely. This could, however, cause problems with sites using a page caching plugin. Turn this off if you are getting complaints about forms not being able to be submitted with an error of \"Nonce failed!\""
+msgstr "Ar trebui formularul să folosească un nunic WordPress? Acest lucru ajută la reducerea spamului prin asigurarea că trimițătorul formularului este pe sit în momentul trimiterii formularului mai degrabă decât transmiterea de la distanță. Cu toate acestea, ar putea cauza probleme cu siturile care folosesc o pagină a unui modul pentru cache. Dezactivează asta dacă primești plângeri cu privire la formulare care nu pot să fie trimise cu o eroare \"Nunic nereușit!\""
+
+#: public/class-pirateforms-public.php:1047
+msgid "Uploaded file is too large %s"
+msgstr "Fișierul încărcat este prea mare %s"
+
+#: public/class-pirateforms-public.php:1061
+msgid "There was an unknown error uploading the file %s"
+msgstr "A fost o eroare necunoscută la încărcarea fișierului %s"
+
+#: admin/class-pirateforms-admin.php:322
+msgid "Add a nonce to the contact form"
+msgstr "Adaugă un nunic la formularul de contact"
+
+#: admin/class-pirateforms-admin.php:418
+#: admin/partials/pirateforms-settings-display.php:31
+msgid "Fields Settings"
+msgstr "Setări câmpuri"
+
+#: admin/class-pirateforms-admin.php:569
+#: admin/partials/pirateforms-settings-display.php:34
+msgid "Fields Labels"
+msgstr "Etichete câmpuri"
+
+#: admin/class-pirateforms-admin.php:659
+#: admin/partials/pirateforms-settings-display.php:37
+msgid "Alert Messages"
+msgstr "Mesaje de alertă"
+
+#: admin/class-pirateforms-admin.php:749
+msgid "SMTP Options"
+msgstr "Opțiuni SMTP"
+
+#: admin/partials/pirateforms-settings-display.php:56
+msgid "Add a "
+msgstr "Adaugă un"
+
+#: admin/partials/pirateforms-settings-display.php:76
+msgid "Are you enjoying Pirate Forms?"
+msgstr "Îți place Pirate Forms?"
+
+#. translators: link to blog article about contact form plugins
+#: admin/partials/pirateforms-settings-display.php:95
+msgid "If you want a more complex Contact Form Plugin please check %1$s this link %2$s."
+msgstr "Dacă dorești un modul de formular de contact mai complex te rog verifică %1$s această legătură%2$s."
+
+#. translators: link to WordPress.org repo for PirateForms
+#: admin/partials/pirateforms-settings-display.php:81
+msgid "Rate our plugin on %1$s WordPress.org %2$s. We'd really appreciate it!"
+msgstr "Evaluează modulul nostru pe %1$s WordPress.org %2$s. Am aprecia foarte mult asta!"
+
+#. Plugin Name of the plugin/theme
+msgid "Free & Simple Contact Form Plugin - Pirateforms"
+msgstr "Modul gratuit și simplu pentru formulare de contact - Pirateforms"
+
+#: includes/class-pirateforms-util.php:256
+#: includes/class-pirateforms-util.php:298
+#: public/class-pirateforms-public.php:616
+#: public/class-pirateforms-public.php:620
+msgid "IP address"
+msgstr "Adresă IP"
+
+#: includes/class-pirateforms-util.php:257
+#: public/class-pirateforms-public.php:617
+#: public/class-pirateforms-public.php:621
+msgid "IP search"
+msgstr "Căutare IP"
+
+#: includes/class-pirateforms-util.php:259
+#: includes/class-pirateforms-util.php:300
+#: public/class-pirateforms-public.php:635
+#: public/class-pirateforms-public.php:638
+msgid "Sent from page"
+msgstr "Trimis de pe pagina"
+
+#: admin/class-pirateforms-admin.php:268
+msgid "Insert [email] to use the contact form submitter's email."
+msgstr "Inserează [email] pentru a folosi formularul de contact al expeditorului emailului."
+
+#: admin/partials/pirateforms-settings-sidebar-subscribe.php:25
+msgid "Get Our Free Email Course"
+msgstr "Vino la cursul nostru gratuit de email"
+
+#: admin/partials/pirateforms-settings-sidebar-subscribe.php:51
+msgid "Ready to learn how to reduce your website loading times by half? Come and join the 1st lesson here!"
+msgstr "Ești gata să înveți cum să reduci la jumătate timpul de încărcare al sitului tău? Vino și participă la prima lecție aici!"
+
+#: admin/partials/pirateforms-settings-sidebar-subscribe.php:53
+msgid "Thank you for subscribing! You have been added to the mailing list and will receive the next email information in the coming weeks. If you ever wish to unsubscribe, simply use the \"Unsubscribe\" link included in each newsletter."
+msgstr "Îți mulțumim pentru abonare! Ai fost adăugat la lista de email și vei primi următorul email cu informații în săptămânile următoare. Dacă vreodată vei dori să te dezabonezi, trebuie doar să folosești legătura \"Dezabonare\" (Unsubscribe) inclusă în fiecare buletin informativ."
+
+#: includes/class-pirateforms-widget.php:107
+msgid "Subtext:"
+msgstr "Subtext:"
+
+#: includes/class-pirateforms-widget.php:101
+msgid "Title:"
+msgstr "Titlu:"
+
+#: includes/class-pirateforms-widget.php:97
+msgid "Title"
+msgstr "Titlu"
+
+#: admin/class-pirateforms-admin.php:303
+msgid "Store submissions in the database"
+msgstr "Stocarea trimiterilor în baza de date"
+
+#: admin/class-pirateforms-admin.php:258
+msgid "Form processing options"
+msgstr "Opțiuni de procesare a formularului"
+
+#: admin/class-pirateforms-admin.php:668
+msgid "Enter your name"
+msgstr "Introdu numele tău"
+
+#: admin/class-pirateforms-admin.php:666
+msgid "Name required and missing"
+msgstr "Numele este necesar și lipsește"
+
+#: admin/class-pirateforms-admin.php:617
+msgid "Your message"
+msgstr "Mesajul tău"
+
+#: admin/class-pirateforms-admin.php:591
+msgid "Your Email"
+msgstr "Emailul tău"
+
+#: admin/class-pirateforms-admin.php:589
+msgid "Email"
+msgstr "Email"
+
+#: admin/class-pirateforms-admin.php:578
+msgid "Your Name"
+msgstr "Numele tău"
+
+#: admin/class-pirateforms-admin.php:628
+msgid "Submit button"
+msgstr "Buton de trimitere"
+
+#: admin/class-pirateforms-admin.php:542
+msgid "Create an account here "
+msgstr "Creează-ți un cont aici"
+
+#: admin/class-pirateforms-admin.php:542
+msgid "to get the Site key and the Secret key for the reCaptcha."
+msgstr "pentru a obține cheia sitului și cheia secretă pentru reCaptcha."
+
+#: admin/class-pirateforms-admin.php:483 admin/class-pirateforms-admin.php:615
+msgid "Message"
+msgstr "Mesaj"
+
+#: admin/class-pirateforms-admin.php:464 admin/class-pirateforms-admin.php:602
+#: admin/class-pirateforms-admin.php:604
+msgid "Subject"
+msgstr "Subiect"
+
+#: admin/class-pirateforms-admin.php:445
+msgid "Email address"
+msgstr "Adresă de email"
+
+#: admin/class-pirateforms-admin.php:437 admin/class-pirateforms-admin.php:456
+#: admin/class-pirateforms-admin.php:475 admin/class-pirateforms-admin.php:494
+#: admin/class-pirateforms-admin.php:512
+msgid "Required"
+msgstr "Obligatoriu"
+
+#: admin/class-pirateforms-admin.php:426 admin/class-pirateforms-admin.php:576
+msgid "Name"
+msgstr "Nume"
+
+#: admin/class-pirateforms-admin.php:189 admin/class-pirateforms-admin.php:203
+msgid "Send Message"
+msgstr "Trimite mesajul"
+
+#: includes/class-pirateforms-util.php:153
+msgid "Form submission blocked!"
+msgstr "Trimitere formular blocată!"
+
+#: public/class-pirateforms-public.php:575
+msgid "Form submission failed!"
+msgstr "Trimiterea formularului a eșuat!"
+
+#: admin/partials/pirateforms-settings-display.php:28
+msgid "Options"
+msgstr "Opțiuni"
+
+#: public/class-pirateforms-public.php:567
+msgid "Nonce failed!"
+msgstr "Nunic eșuat!"
+
+#: public/class-pirateforms-public.php:505
+msgid "Sorry, an error occured."
+msgstr "Regret, a apărut o eroare."
+
+#: includes/class-pirateforms-util.php:169
+msgid "None"
+msgstr "Niciunu"
+
+#: admin/class-pirateforms-admin.php:539
+msgid "Site key"
+msgstr "Cheie sit"
+
+#: admin/class-pirateforms-admin.php:557
+msgid "Secret key"
+msgstr "Cheie secretă"
+
+#: admin/class-pirateforms-admin.php:679
+msgid "E-mail required and missing"
+msgstr "Emailul este necesar și lipsește"
+
+#: admin/class-pirateforms-admin.php:681
+msgid "Enter valid email"
+msgstr "Introdu un email valid"
+
+#: admin/class-pirateforms-admin.php:692
+msgid "Subject required and missing"
+msgstr "Subiectul este necesar și lipsește"
+
+#: admin/class-pirateforms-admin.php:694
+msgid "Please enter a subject"
+msgstr "Te rog să introduci un subiect"
+
+#: admin/class-pirateforms-admin.php:705
+msgid "Question/comment is missing"
+msgstr "Întrebarea/comentariul lipsește"
+
+#: admin/class-pirateforms-admin.php:707
+msgid "Enter your question or comment"
+msgstr "Introdu întrebarea sau comentariul tău"
+
+#: admin/class-pirateforms-admin.php:731
+msgid "Successful form submission text"
+msgstr "Textul de succes la trimitere"
+
+#: admin/class-pirateforms-admin.php:738
+msgid "Thanks, your email was sent successfully!"
+msgstr "Mulțumim, emailul tău a fost trimis cu succes!"
+
+#: admin/class-pirateforms-admin.php:284
+msgid "Contact submission recipients"
+msgstr "Destinatarii formularului de contact"
+
+#: admin/class-pirateforms-admin.php:287
+msgid "Email address(es) to receive contact submission notifications. You can separate multiple emails with a comma."
+msgstr "Adresa/adresele de email, la care se primesc notificările de trimitere a formularelor. Poți separa mai multe emailuri cu virgulă."
+
+#: admin/class-pirateforms-admin.php:341
+msgid "Send email confirmation to form submitter"
+msgstr "Trimite confirmare prin email celui care a expediat formularul"
+
+#: admin/class-pirateforms-admin.php:756
+msgid "Use SMTP to send emails?"
+msgstr "Folosire SMTP pentru trimiterea emailurilor?"
+
+#: admin/class-pirateforms-admin.php:759
+msgid "Instead of PHP mail function"
+msgstr "în loc de funcția mail din PHP"
+
+#: admin/class-pirateforms-admin.php:774
+msgid "SMTP Host"
+msgstr "Gazdă SMTP"
+
+#: admin/class-pirateforms-admin.php:786
+msgid "SMTP Port"
+msgstr "Port SMTP"
+
+#: admin/class-pirateforms-admin.php:798
+msgid "Use SMTP Authentication?"
+msgstr "Folosești autentificarea la SMTP?"
+
+#: admin/class-pirateforms-admin.php:801 admin/class-pirateforms-admin.php:820
+msgid "If you check this box, make sure the SMTP Username and SMTP Password are completed."
+msgstr "După bifezi aici te rog să te asiguri c[ ai completat numele utilizator și parola pentru SMTP."
+
+#: admin/class-pirateforms-admin.php:839
+msgid "SMTP Username"
+msgstr "Nume utilizator SMTP"
+
+#: admin/class-pirateforms-admin.php:851
+msgid "SMTP Password"
+msgstr "Parolă SMTP"
+
+#: admin/partials/pirateforms-settings-display.php:20
+#: includes/class-pirateforms-widget.php:18
+#: includes/class-pirateforms-widget.php:21
+msgid "Pirate Forms"
+msgstr "Formulare pirat"
+
+#: admin/partials/pirateforms-settings-display.php:129
+msgid "Save changes"
+msgstr "Salvează modificările"
+
+#: includes/class-pirateforms-widget.php:98
+msgid "Text above form"
+msgstr "Text deasupra formularului"
+
+#: admin/partials/pirateforms-settings-display.php:25
+msgid "How to use"
+msgstr "Cum îl folosești"
+
+#: admin/partials/pirateforms-settings-display.php:40
+msgid "SMTP"
+msgstr "SMTP"
+
+#: admin/partials/pirateforms-settings-display.php:47
+msgid "Welcome to Pirate Forms!"
+msgstr "Bine ai venit la Formulare pirat!"
+
+#: admin/partials/pirateforms-settings-display.php:48
+msgid "To get started, just "
+msgstr "Pentru a începe, doar"
+
+#: admin/partials/pirateforms-settings-display.php:49
+msgid "configure all the options "
+msgstr "configurează toate opțiunile"
+
+#: admin/partials/pirateforms-settings-display.php:49
+msgid "you need, hit save and start using the created form."
+msgstr "de care ai nevoie, apasă salvare și poți începe să folosești formularul creat."
+
+#: admin/partials/pirateforms-settings-display.php:54
+msgid "There are 3 ways of using the newly created form:"
+msgstr "Sunt 3 căi de utilizare a noului formular creat:"
+
+#: admin/partials/pirateforms-settings-display.php:60
+msgid " in any page or post."
+msgstr "în orice pagină sau articol."
+
+#: admin/partials/pirateforms-settings-display.php:57
+msgid "widget"
+msgstr "piesă"
+
+#: admin/partials/pirateforms-settings-display.php:64
+msgid " in the theme's files."
+msgstr "în fișierele temei."
+
+#: public/class-pirateforms-public.php:601
+msgid "Please enter one or more Contact submission recipients"
+msgstr "Te rog să introduci unul sau mai mulți destinatari ai formularelor de contact trimise"
+
+#: admin/class-pirateforms-admin.php:123 admin/class-pirateforms-admin.php:147
+msgid "Settings"
+msgstr "Setări"
+
+#. Plugin URI of the plugin/theme
+msgid "http://themeisle.com/plugins/pirate-forms/"
+msgstr "http://themeisle.com/plugins/pirate-forms/"
+
+#. Description of the plugin/theme
+msgid "Easily creates a nice looking, simple contact form on your WP site."
+msgstr "Crează cu ușurință pe situl tău WP un formular simplu de contact care arată bine."
+
+#. Author of the plugin/theme
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#. Author URI of the plugin/theme
+msgid "http://themeisle.com"
+msgstr "http://themeisle.com"
+
+#: admin/partials/pirateforms-settings-display.php:59
+#: admin/partials/pirateforms-settings-display.php:62
+msgid "Use the shortcode "
+msgstr "Folosește scurtcodul"
+
+#: admin/class-pirateforms-admin.php:734
+msgid "This text is used on the page if no Success Page is chosen above. This is also used as the confirmation email title, if one is set to send out."
+msgstr "Acest text este folosit în pagină dacă nu este aleasă nicio pagină de succes mai sus. El este folosit, de asemenea, ca titlul emailului de confirmare, dacă acesta este setat să fie trimis."
+
+#: includes/class-pirateforms.php:257
+msgid "No entries found in Trash."
+msgstr "Nicio intrare găsită la gunoi."
+
+#: includes/class-pirateforms.php:247
+msgctxt "post type general name"
+msgid "Entries"
+msgstr "Intrări"
+
+#: includes/class-pirateforms.php:248
+msgctxt "post type singular name"
+msgid "Entry"
+msgstr "Intrare"
+
+#: includes/class-pirateforms.php:250
+msgctxt "add new on admin bar"
+msgid "Entry"
+msgstr "Intrare"
+
+#: includes/class-pirateforms.php:261
+msgid "Entries from Pirate Forms"
+msgstr "Intrări din Formulare pirat"
+
+#: includes/class-pirateforms-util.php:240
+#: public/class-pirateforms-public.php:589
+msgid "Contact form submission from %s"
+msgstr "Trimitere formular de contact de la %s"
+
+#: admin/class-pirateforms-admin.php:306
+msgid "Should the submissions be stored in the admin area? If chosen, contact form submissions will be saved under \"All Entries\" on the left (appears after this option is activated)."
+msgstr "Ar trebuie ca trimiterile să fie stocate în zona de administrare? Dacă alegi asta, trimiterile formularului de contact vor fi salvate în „Toate intrările” în partea stângă (apar după ce această opțiune este activată)."
