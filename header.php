@@ -45,15 +45,15 @@
   <body <?php body_class(); ?>>
   <?php do_action( 'foundationpress_after_body' ); ?>
 
-  <?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
-  <div class="off-canvas-wrapper">
-    <?php get_template_part( 'template-parts/mobile-off-canvas' ); ?>
-  <?php endif; ?>
+	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
+	<div class="off-canvas-wrapper">
+		<?php get_template_part( 'template-parts/mobile-off-canvas' ); ?>
+	<?php endif; ?>
 
-  <?php do_action( 'foundationpress_layout_start' ); ?>
+	<?php do_action( 'foundationpress_layout_start' ); ?>
 
   <header class="site-header" role="banner">
-    <nav class="site-navigation top-bar" role="navigation">
+    <nav class="site-navigation top-bar" role="navigation" <?php foundationpress_title_bar_responsive_toggle() ?>>
       <div class="text-left"> <!-- top-bar-left -->
         <div class="site-desktop-title"> <!-- top-bar-title -->
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">

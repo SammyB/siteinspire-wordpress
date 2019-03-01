@@ -31,33 +31,33 @@ var PATHS = {
   sass: [
     'assets/components/foundation-sites/scss',
     'assets/components/motion-ui/src',
-    'assets/components/fontawesome/scss'
+    'assets/components/fontawesome/scss',
   ],
   javascript: [
     // libs
     'assets/components/what-input/what-input.js',
-    'assets/components/foundation-sites/js/dist/foundation.core.js',
-    'assets/components/foundation-sites/js/dist/foundation.util.*.js',
+    'assets/components/foundation-sites/js/foundation.core.js',
+    'assets/components/foundation-sites/js/foundation.util.*.js',
 
     // Paths to individual JS components defined below
-    'assets/components/foundation-sites/js/dist/foundation.abide.js',
-    'assets/components/foundation-sites/js/dist/foundation.accordion.js',
-    'assets/components/foundation-sites/js/dist/foundation.accordionMenu.js',
-    'assets/components/foundation-sites/js/dist/foundation.drilldown.js',
+    'assets/components/foundation-sites/js/foundation.abide.js',
+    'assets/components/foundation-sites/js/foundation.accordion.js',
+    'assets/components/foundation-sites/js/foundation.accordionMenu.js',
+    'assets/components/foundation-sites/js/foundation.drilldown.js',
     //'assets/components/foundation-sites/js/dist/foundation.dropdown.js',
     //'assets/components/foundation-sites/js/dist/foundation.dropdownMenu.js',
-    'assets/components/foundation-sites/js/dist/foundation.equalizer.js',
-    'assets/components/foundation-sites/js/dist/foundation.interchange.js',
-    'assets/components/foundation-sites/js/dist/foundation.magellan.js',
-    'assets/components/foundation-sites/js/dist/foundation.offcanvas.js',
+    'assets/components/foundation-sites/js/foundation.equalizer.js',
+    'assets/components/foundation-sites/js/foundation.interchange.js',
+    'assets/components/foundation-sites/js/foundation.magellan.js',
+    'assets/components/foundation-sites/js/foundation.offcanvas.js',
     //'assets/components/foundation-sites/js/dist/foundation.orbit.js',
-    'assets/components/foundation-sites/js/dist/foundation.responsiveMenu.js',
-    'assets/components/foundation-sites/js/dist/foundation.responsiveToggle.js',
-    'assets/components/foundation-sites/js/dist/foundation.reveal.js',
+    'assets/components/foundation-sites/js/foundation.responsiveMenu.js',
+    'assets/components/foundation-sites/js/foundation.responsiveToggle.js',
+    'assets/components/foundation-sites/js/foundation.reveal.js',
     //'assets/components/foundation-sites/js/dist/foundation.slider.js',
     //'assets/components/foundation-sites/js/dist/foundation.sticky.js',
     //'assets/components/foundation-sites/js/dist/foundation.tabs.js',
-    'assets/components/foundation-sites/js/dist/foundation.toggler.js',
+    'assets/components/foundation-sites/js/foundation.toggler.js',
     //'assets/components/foundation-sites/js/dist/foundation.tooltip.js',
     //'assets/components/foundation-sites/js/dist/foundation.zf.responsiveAccordionTabs.js',
 
@@ -88,9 +88,9 @@ var PATHS = {
 gulp.task('browser-sync', ['build'], function() {
 
   var files = [
-    '**/*.php',
-    'assets/images/**/*.{png,jpg,gif}',
-  ];
+            '**/*.php',
+            'assets/images/**/*.{png,jpg,gif}',
+          ];
 
   browserSync.init(files, {
     // Proxy address

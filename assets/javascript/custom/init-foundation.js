@@ -1,3 +1,6 @@
+// init foundation
+jQuery(document).foundation();
+
 //Default options
 var options = {
   animationDuration: 0.2, //in seconds
@@ -16,11 +19,6 @@ var options = {
   layout: 'sameSize', //See layouts
   selector: '.filtr-container',
   setupControls: true
-};
-
-// init foundation
-window.onload = function() {
-  $(document).foundation();
 };
 
 // init particles, needs to be seperate

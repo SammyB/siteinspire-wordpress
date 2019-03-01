@@ -6,7 +6,7 @@
   ],
   "ignore": [],
   "dependencies": {
-    "foundation-sites": "~6.4.3",
+    "foundation-sites": "~6.3.0",
     "motion-ui" : "~1.2.3",
     "fontawesome": "~4.7.0",
     "filterizr": "~1.3.5",
