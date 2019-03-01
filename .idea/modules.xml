@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SiteInspire.iml" filepath="$PROJECT_DIR$/.idea/SiteInspire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/site-inspire.iml" filepath="$PROJECT_DIR$/.idea/site-inspire.iml" />
     </modules>
   </component>
 </project>
