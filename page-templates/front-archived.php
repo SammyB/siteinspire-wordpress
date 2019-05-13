@@ -25,7 +25,7 @@ get_header(); ?>
 
           <p class="inspire--curated">Curated by<br> Sam Brunno, Isobar Australia.</p>
 
-          <p class="inspire--curated"><em>Powered by <a href="https://isobaracademy.com/" title="Powered by Isobar Academy">Isobar Academy</a></em></p>
+          <p class="inspire--curated"><em>Powered by <a href="https://isobaracademy.com/">Isobar Academy</a></em></p>
 
           <hr class="inspire--hr show-for-small-only">
 
@@ -60,11 +60,6 @@ get_header(); ?>
                   Data Driven
                 </a>
               </li>
-				<li>
-					<a href="#" data-post-type="post" data-posts-per-page="12" data-category="distilled" data-scroll="true" data-button-label="More Inspiration">
-						Distilled
-					</a>
-				</li>
               <li>
                 <a href="#" data-post-type="post" data-posts-per-page="12" data-category="filters-effects" data-scroll="true" data-button-label="More Inspiration">
                   Filters & Effects

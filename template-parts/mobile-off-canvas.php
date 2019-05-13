@@ -69,6 +69,11 @@
             Data Driven
           </a>
         </li>
+		<li>
+          <a href="#" data-post-type="post" data-posts-per-page="12" data-category="distilled" data-scroll="true" data-button-label="More Inspiration">
+            Distilled
+          </a>
+        </li>
         <li>
           <a href="#" data-post-type="post" data-posts-per-page="12" data-category="filters-effects" data-scroll="true" data-button-label="More Inspiration">
             Filters & Effects
