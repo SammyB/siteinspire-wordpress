@@ -60,11 +60,11 @@ get_header(); ?>
                   Data Driven
                 </a>
               </li>
-				<li>
-					<a href="#" data-post-type="post" data-posts-per-page="12" data-category="distilled" data-scroll="true" data-button-label="More Inspiration">
-						Distilled
-					</a>
-				</li>
+							<li>
+								<a href="#" data-post-type="post" data-posts-per-page="12" data-category="distilled" data-scroll="true" data-button-label="More Inspiration">
+									Distilled
+								</a>
+							</li>
               <li>
                 <a href="#" data-post-type="post" data-posts-per-page="12" data-category="filters-effects" data-scroll="true" data-button-label="More Inspiration">
                   Filters & Effects
@@ -145,7 +145,6 @@ get_header(); ?>
           css_classes="siteinspire row small-up-2 medium-up-2 large-up-4 filtr-container"
         ]' );
       ?>
-      <?php the_excerpt(); ?>
   </div>
 </div>
 <div id="mylightbox" class="lightbox">
