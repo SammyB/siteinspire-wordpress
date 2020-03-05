@@ -17,3 +17,51 @@
       url("../fonts/4c69acf3-07ac-4245-ba04-dafc670f6df8.ttf") format("truetype"),
       url("../fonts/cbc5e8e5-6e6f-461f-a299-e6368732ed4b.svg#cbc5e8e5-6e6f-461f-a299-e6368732ed4b") format("svg");
 }
+
+@font-face {
+  font-family: 'halcombold';
+  src: url('../fonts/halcom-bold-webfont.woff2') format('woff2'),
+  url('../fonts/halcom-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//@font-face {
+//  font-family: 'halcomextrabold';
+//  src: url('../fonts/halcom-extrabold-webfont.woff2') format('woff2'),
+//  url('../fonts/halcom-extrabold-webfont.woff') format('woff');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+
+@font-face {
+  font-family: 'halcomregular';
+  src: url('../fonts/halcom-regular-webfont.woff2') format('woff2'),
+  url('../fonts/halcom-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'halcommedium';
+  src: url('../fonts/halcom-medium-webfont.woff2') format('woff2'),
+  url('../fonts/halcom-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'halcombook';
+  src: url('../fonts/halcom-book-webfont.woff2') format('woff2'),
+  url('../fonts/halcom-book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'halcombold_italic';
+  src: url('../fonts/halcom-bolditalic-webfont.woff2') format('woff2'),
+  url('../fonts/halcom-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

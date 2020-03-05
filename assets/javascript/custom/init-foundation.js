@@ -26,7 +26,7 @@ window.onload = function() {
   Particles.init({
     selector: 'canvas.background',
     maxParticles: 350,
-    color: '#f74902',
+    color: '#afafaf',
     responsive: [
       {
         breakpoint: 768,

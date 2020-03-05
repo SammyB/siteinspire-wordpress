@@ -16,9 +16,9 @@
 
 
 // WP overrides
-@import "global/wp-admin"; // Fix issues with wp-admin bar positioning
-@import "global/wp-overrides"; // Override the default WordPress styling for some elements
-@import "global/accessibility";
+//@import "global/wp-admin"; // Fix issues with wp-admin bar positioning
+//@import "global/wp-overrides"; // Override the default WordPress styling for some elements
+//@import "global/accessibility";
 
 
 // Third-party libraries
@@ -85,18 +85,18 @@
 // Modules
 @import "modules/inspire";
 @import "modules/navigation";
-@import "modules/content";
+//@import "modules/content";
 @import "modules/footer";
-@import "modules/editor-style";
+//@import "modules/editor-style";
 
 // Components
 @import "components/ajaxreveal";
-@import "components/background";
-@import "components/buttons";
-@import "components/cards";
-@import "components/featured-image";
-@import "components/dividers";
-@import "components/links";
+//@import "components/background";
+//@import "components/buttons";
+//@import "components/cards";
+//@import "components/featured-image";
+//@import "components/dividers";
+//@import "components/links";
 @import "components/lightbox";
 
 // Templates
