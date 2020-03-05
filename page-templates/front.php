@@ -23,7 +23,7 @@ get_header(); ?>
 
           <p class="inspire--text">The latest in website, apps and site tech inspiration delivered to you monthly.</p>
 
-          <p class="inspire--curated">Curated by<br> Sam Brunno, Isobar Australia.</p>
+					<p class="inspire--curated">Curated by<br> <a href="https://www.linkedin.com/in/salvatorebrunno/" target="_blank">Sam Brunno</a>, Dentsu Australia.</p>
 
           <p class="inspire--curated"><em>Powered by <a href="https://isobaracademy.com/" title="Powered by Dentsu Creative Inspiration">Dentsu Creative Inspiration</a></em></p>
 
