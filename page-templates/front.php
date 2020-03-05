@@ -25,7 +25,7 @@ get_header(); ?>
 
           <p class="inspire--curated">Curated by<br> Sam Brunno, Isobar Australia.</p>
 
-          <p class="inspire--curated"><em>Powered by <a href="https://isobaracademy.com/" title="Powered by Isobar Academy">Isobar Academy</a></em></p>
+          <p class="inspire--curated"><em>Powered by <a href="https://isobaracademy.com/" title="Powered by Dentsu Creative Inspiration">Dentsu Creative Inspiration</a></em></p>
 
           <hr class="inspire--hr show-for-small-only">
 
@@ -139,7 +139,7 @@ get_header(); ?>
           post_format="standard"
           posts_per_page="12"
           progress_bar="true"
-          progress_bar_color="ed7070"
+          progress_bar_color="afafaf"
           button_loading_label="Loading inspiration"
           button_label="Older inspiration"
           css_classes="siteinspire row small-up-2 medium-up-2 large-up-4 filtr-container"

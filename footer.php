@@ -19,7 +19,7 @@
             <?php dynamic_sidebar( 'footer-widgets' ); ?>
           </div>
           <div class="small-12 medium-3 columns text-center medium-text-right">
-            <a href="mailto:Brandon.Lucas@isobar.com?Subject=Site%20Inspire%20Inquiry">CONTACT US</a>
+            <a href="mailto:Brandon.Lucas@isobar.com?Subject=Dentsu%20Creative%20Inspiration%20Inquiry">CONTACT US</a>
           </div>
         </div>
         <?php do_action( 'foundationpress_after_footer' ); ?>

@@ -32,10 +32,10 @@
     <meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ms-icon-144x144.png?636457394782234099">
     <meta name="theme-color" content="#f74902">
 
-    <title>Isobar Inspire - The latest in website, apps and site tech inspiration delivered to you monthly.</title>
+    <title>Dentsu Creative Inspiration - The latest in website, apps and site tech inspiration delivered to you monthly.</title>
 
-    <meta name="og:title" content="Isobar Inspire - The latest in website, apps and site tech inspiration delivered to you monthly.">
-    <meta name="og:description" content="Powered by Isobar Academy, this site is curated once a month to keep you inspired in your daily work life.">
+    <meta name="og:title" content="Dentsu Creative Inspiration - The latest in website, apps and site tech inspiration delivered to you monthly.">
+    <meta name="og:description" content="Powered by Dentsu Creative Inspiration, this site is curated once a month to keep you inspired in your daily work life.">
     <meta property="og:image" name="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/og-image.png">
 		<script src="//cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js" type="application/javascript"></script>
 

@@ -3,48 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e7824020-478c-4fb0-8215-97b4622eb3f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/214bdd25-4f24-45f3-ae15-4ad14e3d7670.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/214bdd25-4f24-45f3-ae15-4ad14e3d7670.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/2b149e8b-4167-4121-9dba-2bdb55aeb1ba.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/2b149e8b-4167-4121-9dba-2bdb55aeb1ba.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/4c69acf3-07ac-4245-ba04-dafc670f6df8.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/4c69acf3-07ac-4245-ba04-dafc670f6df8.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/5b26f0f2-ca2f-46e4-94bc-8492e5122f1d.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/5b26f0f2-ca2f-46e4-94bc-8492e5122f1d.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/badf75de-70f1-4350-adb4-4c4ad8b6382c.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/badf75de-70f1-4350-adb4-4c4ad8b6382c.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/c2c0b11f-81e9-4d53-a2c0-101f0d04118b.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/c2c0b11f-81e9-4d53-a2c0-101f0d04118b.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/cbc5e8e5-6e6f-461f-a299-e6368732ed4b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/cbc5e8e5-6e6f-461f-a299-e6368732ed4b.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/d219e0df-7486-460b-92c6-f633d60312c6.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/d219e0df-7486-460b-92c6-f633d60312c6.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/d722484c-901a-49ab-be2b-e71d114d2d2e.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/d722484c-901a-49ab-be2b-e71d114d2d2e.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/f2d4eaae-7174-4ba4-b167-5ff29de2bf6b.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/f2d4eaae-7174-4ba4-b167-5ff29de2bf6b.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/android-icon-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/apple-icon-114x114.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/apple-icon-120x120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/apple-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/apple-icon-152x152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/apple-icon-180x180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/apple-icon-57x57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/apple-icon-60x60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/apple-icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/apple-icon-76x76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/favicon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/ms-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ms-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/og-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/og-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/archived/foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/archived/foundation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/custom/init-foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/custom/init-foundation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/custom/stickyfooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/custom/stickyfooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/components/_ajaxreveal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/components/_ajaxreveal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/components/_lightbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/components/_lightbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/foundation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/foundation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/global/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/global/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/modules/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/modules/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/modules/_inspire.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/modules/_inspire.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/modules/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/modules/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-templates/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-templates/front.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +68,7 @@
       <workItem from="1551398713983" duration="5620000" />
       <workItem from="1553744831088" duration="804000" />
       <workItem from="1557732922313" duration="427000" />
-      <workItem from="1583388195890" duration="1349000" />
+      <workItem from="1583388195890" duration="1989000" />
     </task>
     <servers />
   </component>
@@ -128,9 +90,9 @@
       <screen x="0" y="23" width="1920" height="1134" />
     </state>
     <state x="353" y="125" width="1263" height="865" key="DiffContextDialog/-1920.23.1920.1177/0.23.1920.1134/1920.219.1680.1027@0.23.1920.1134" timestamp="1583388400853" />
-    <state x="634" y="319" width="652" height="542" key="find.popup" timestamp="1583390191796">
+    <state x="352" y="160" width="1130" height="761" key="find.popup" timestamp="1583390527578">
       <screen x="0" y="23" width="1920" height="1134" />
     </state>
-    <state x="634" y="319" width="652" height="542" key="find.popup/-1920.23.1920.1177/0.23.1920.1134/1920.219.1680.1027@0.23.1920.1134" timestamp="1583390191796" />
+    <state x="352" y="160" width="1130" height="761" key="find.popup/-1920.23.1920.1177/0.23.1920.1134/1920.219.1680.1027@0.23.1920.1134" timestamp="1583390527578" />
   </component>
 </project>
