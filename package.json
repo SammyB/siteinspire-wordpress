@@ -74,6 +74,7 @@
   "dependencies": {
     "featherlight": "^1.7.13",
     "filterizr": "^1.3.5",
+    "natives": "^1.1.6",
     "particlesjs": "^2.2.3"
   }
 }

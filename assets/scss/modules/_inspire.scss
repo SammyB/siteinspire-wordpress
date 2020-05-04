@@ -8,6 +8,18 @@
   z-index: -1
 }
 
+// footer update
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .footer {
+    padding: .5rem 0;
+  }
+}
+
 a {
   color: $orange;
 
