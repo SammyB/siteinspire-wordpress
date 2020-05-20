@@ -32,15 +32,15 @@
     <meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ms-icon-144x144.png?636457394782234099">
     <meta name="theme-color" content="#f74902">
 
-    <title>Dentsu Creative Inspiration - The latest in website, apps and site tech inspiration delivered to you monthly.</title>
+		<title>Dentsu Creative Inspiration - The latest in website, apps and site tech inspiration delivered to you monthly.</title>
 
-    <meta name="og:title" content="Dentsu Creative Inspiration - The latest in website, apps and site tech inspiration delivered to you monthly.">
-    <meta name="og:description" content="Powered by Dentsu Creative Inspiration, this site is curated once a month to keep you inspired in your daily work life.">
-    <meta property="og:image" name="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/og-image.png">
+		<meta name="og:title" content="Dentsu Creative Inspiration - The latest in website, apps and site tech inspiration delivered to you monthly.">
+		<meta name="og:description" content="Powered by Dentsu Creative Inspiration, this site is curated once a month to keep you inspired in your daily work life.">
+		<meta property="og:image" name="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/og-image.png">
 		<script src="//cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js" type="application/javascript"></script>
 
 
-    <?php wp_head(); ?>
+		<?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
   <?php do_action( 'foundationpress_after_body' ); ?>
@@ -57,7 +57,8 @@
       <div class="text-left"> <!-- top-bar-left -->
         <div class="site-desktop-title"> <!-- top-bar-title -->
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/DCA-logo.png" alt="dentsu creative inspiration" style="vertical-align: top" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/DCA-logo.png" alt="dentsu creative inspiration" style="vertical-align: top" />
+						<!-- img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/academy.png" alt="isobar academy" style="vertical-align: top" /-->
           </a>
         </div>
       </div>

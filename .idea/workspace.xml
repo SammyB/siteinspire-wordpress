@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7824020-478c-4fb0-8215-97b4622eb3f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/DCA-logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/DCA-logo-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/DCA-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/DCA-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/components/_ajaxreveal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/components/_ajaxreveal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/modules/_inspire.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/modules/_inspire.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/widget-areas.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/widget-areas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +21,6 @@
     <node-interpreter value="project" />
     <bower-package value="$PROJECT_DIR$/node_modules/bower" />
     <bower.json value="$PROJECT_DIR$/bower.json" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1135" />
   </component>
   <component name="ProjectId" id="1YhI2gZuOVoHDxU6Ttj30eNyray" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -73,7 +61,10 @@
       <workItem from="1583388195890" duration="2242000" />
       <workItem from="1583447644522" duration="426000" />
       <workItem from="1583796014691" duration="1346000" />
-      <workItem from="1588551436425" duration="1575000" />
+      <workItem from="1588551436425" duration="1714000" />
+      <workItem from="1589156650359" duration="229000" />
+      <workItem from="1589156932607" duration="114000" />
+      <workItem from="1589157055885" duration="1030000" />
     </task>
     <servers />
   </component>
@@ -91,10 +82,11 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="353" y="125" width="1263" height="865" key="DiffContextDialog" timestamp="1583388400853">
-      <screen x="0" y="23" width="1920" height="1134" />
+    <state x="0" y="23" width="1263" height="869" maximized="true" key="DiffContextDialog" timestamp="1589157538453">
+      <screen x="0" y="23" width="1920" height="1138" />
     </state>
     <state x="353" y="125" width="1263" height="865" key="DiffContextDialog/-1920.23.1920.1177/0.23.1920.1134/1920.219.1680.1027@0.23.1920.1134" timestamp="1583388400853" />
+    <state x="0" y="23" width="1263" height="869" maximized="true" key="DiffContextDialog/0.23.1920.1138/-1680.173.1680.1027/1920.102.1920.1177@0.23.1920.1138" timestamp="1589157538453" />
     <state x="644" y="422" key="com.intellij.ide.util.TipDialog" timestamp="1583447647461">
       <screen x="0" y="23" width="1920" height="1134" />
     </state>
@@ -104,5 +96,9 @@
     </state>
     <state x="352" y="160" width="1130" height="761" key="find.popup/-1920.23.1920.1177/0.23.1920.1134/1920.219.1680.1027@0.23.1920.1134" timestamp="1583797465536" />
     <state x="352" y="160" width="1130" height="764" key="find.popup/0.23.1920.1138/-1680.173.1680.1027/1920.102.1920.1177@0.23.1920.1138" timestamp="1588553005125" />
+    <state x="625" y="278" width="670" height="676" key="search.everywhere.popup" timestamp="1589156874428">
+      <screen x="0" y="23" width="1920" height="1138" />
+    </state>
+    <state x="625" y="278" width="670" height="676" key="search.everywhere.popup/0.23.1920.1138/-1680.173.1680.1027/1920.102.1920.1177@0.23.1920.1138" timestamp="1589156874428" />
   </component>
 </project>

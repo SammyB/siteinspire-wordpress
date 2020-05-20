@@ -17,9 +17,8 @@
         <div class="row">
           <div class="small-12 medium-9 columns text-center medium-text-left">
 						<div class="large-12 columns textwidget">
-							<p>See our inspirational work:<br>
-								Isobar work: <a href="https://www.isobar.com/global/en/work/" target="_blank" rel="noopener noreferrer"><strong>Click here</strong></a> | McGarryBowen work: <a href="http://www.mcgarrybowen.com/" target="_blank" rel="noopener noreferrer"><strong>Click here</strong></a>
-							</p>
+							<p style="margin-bottom: 0;">See our inspirational work: <a href="https://www.isobar.com/global/en/work/" target="_blank" rel="noopener noreferrer"><strong>Isobar work</strong></a> | <a href="http://www.mcgarrybowen.com/" target="_blank" rel="noopener noreferrer"><strong>McGarryBowen work</strong></a></p>
+							<?php dynamic_sidebar( 'footer-widgets' ); ?>
 						</div>
           </div>
           <div class="small-12 medium-3 columns text-center medium-text-right">
